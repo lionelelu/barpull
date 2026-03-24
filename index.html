@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://api.github.com https://www.youtube-nocookie.com blob: data:; script-src 'self' 'unsafe-inline' blob:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://img.youtube.com; connect-src 'self' https://api.github.com; frame-src https://www.youtube-nocookie.com;">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Barra Pro">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<meta name="theme-color" content="#2563EB">
+<meta name="description" content="Tu rutina completa de dominadas — tracking, entrenamiento guiado, progresión">
+<link rel="manifest" id="pwa-manifest">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAGGElEQVR42u2dPVLjQBBGV10QbwJHMDFH4C5QRHscoi24C0cghiNAQkzARoDLK1uSNT/dX79XRbI/9nj66aM1GsnDL1jN5vr1s8TrvDycD8zmOpjAxtIiO0KnkxfJETqFwAiO0PISI3diodUlRu4kQmcVOaPYAxIjN0IjMmIjNCIjNkIjMmLnEBqREVtCaERG7EMYMoPSnA9MKiiltSEzKNViYPJAKa0NmUGpRsZEgVKtBiYHlFoQQ2ZQqqExEaBUS0NmUKqpITMo1XZAZFA6WTRkBqWaGzKDUu0NmUHJAUNmUJLamGZQwqIfkUBKNxEamaGHG4bMoCS1ITMoSW3IDEpSs8oBUgytjrTn+zNmOzkXN297/67Uno+htsyIDHPFLiG1ITO0Zp8XJfppemiQYpXQpDN4S2mrITNAzQUGWg6g5SCdIWJKW603OrTmCDDHj2OkpuWAvC3H0iOGlIa1Xix17qTV4Fst4z0+ffz3Z1eXp1jkYH5aBNxQ60hpzd8/vyf/ze3de1qRo8/P3Mvi4YWeU6jMYqvMz1yhLZvMa/5fBpm9zs9cB1nlACms1JERJX2ypLTi/MxxkYSGPAmtms7qKa08P1NOktAJUV6XN4qXU+ary9PvnxRCR95Rt1sspN7P2JVD7xxy0ygSrYYSQ9R0njphGSverug1r4jN2btSc2/D2PzszsnUge/9iurY1cMT1SP18emjeSIt3YC1/e9rb9zJ0naFbTmOSY/topZMn+f7s9W7CUu8xpL5iZ7Os4VWur2qRS9deltsjW22quk85mrok8JjU7pU+tTa413qdfd9TtV0lljluL17P1iAWild+4aFUq+/JJ2n5jLcKodCuzHn7H7tSVjLh+isPVncHevYAR5d4u3VDrlVjn3FKSVh6ydCPd+fHS312FjVb25Iu5fjGDF7Pd6s1PtmuGk5jdClf3V7lzrrswVNqX+OJmmkA9oz2+6majlK9qKeD8DMT35Nvx86Q/EzPfAnndDqxc3+XG7uWJmQwJsgS8eT7XFslvGEULXImdP5y2ESWliGjA/LTCu0WrH5Tht6aGkpsj7KOLXQKkUnnRFaWo7MD5pPL3T04pPOO0LzjVZakmRO58316yctx4QE3gTZHg/pTMshldIXN2/fP9nT+YsT1P2RY83dIbQaJHQYKbzIgrQIDQgNHtORdEZoGamQGaFl5EJmhJaRDJkRWkZqZEZoGamRGaFlpEbmdQxsTirHmsvliIzQ4eVGYloOAIQGhAaIKfTYd70BROTl4XwgoYGWAwChARAaAKEBoQGEhGbpDqLz5TAJDbQcAAgNgNAARwrNiSFEPyEkoYGWAwChAXoITR8NkftnEhpoOQBCCU3bAVHbDRIaaDkAwglN2wER2w0SGvK0HKQ0REtnEho4KQQIKzRtB0RqN0hoyNdykNIQJZ1J6IpMPZ2fp/d3PCkkpZcz9ZUUa76PhXQmobvLPJbISN0poUnpMjIjdd10JqE7JDNSO0loUrpMm4HU9dKZhO4gM1I7SmhSuozMSF3PNWv1RsiM1C0co+XoKDNSO2g5SOmyMiN1Wbes1xsjM1LXcIqWw4nMSN255ciW0i1kzi51CZfMy0CQObfUpRwybwNC5nxSl3SHHtqpzPTUDoRWSmkPMmeQurQz5n2A2WVWlrqGKxZloJllVpS6liMWbcBZZVaSuqYbFnXgLWTxeiNrlHH2cIJVjq2U2006r8k3Nk5WPhoJHSWloz9WIML4W7hgKh+kZV/NePw6YGofKGNKex93y9qb6gdTTMWI6dy65tbjA3oWO1pKex1vrzpbliM3ejpGSueetbWsH1whpT2Os3dNLfsEREjJKOnsoZbGRMRMaW/j81JD8zQhEdK6dVp6T2dvdTOPE0QKxhiXxwAyr0c9Ke07nb3WyP2v+M3166cngXukY+/3jxQ27nfbeZnAi5u3rrdgeWgzIpzjhLq44SGtMxJpadWYWFCa87CCkNaILCU0YiOypNCIjciSQiM25yWSQiN27hPsFKsGyK0tcTqhs4udabkz7bquutxZ1+y5UCEkNxeeEDq04AiM0GElR16EDic70q7nH4p2b5dUfVuyAAAAAElFTkSuQmCC">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABOElEQVR42s1XOxKCMBAlO1Db6BGg5gjcBcbK41g5ehePYK1HCI21RWzEyZDfPkiiWzmYvPfmbbLZFQUYdS+V7//HZScQPBGDdI0YSkXO3StSECNuUA5yHyblIPdhl7YF9/M2lYaiKaRyHs66lypHWFOQ0npfKig3+VxEaeRoGI0zcL29vr+7tgqC+9Y3w2jWAZ8Dp8PG+OYToZNPsT8+nbWBUHJu6CJdOHUvVbkUlLOmayurI9BbgJBz0gEJ0HPHAePgwA74Nlsr3eeUT4JD+wVaA0Jlen7Ngs/xmiKki0GJ4UOYKgjt4WI3Kb934C8E/CINEyct7edjNagU4wquaeNoyVTjuv8cEXMOQqcZGzlXhA2b0JHKRsoR4cIMWj4v1Rz79e8hRwnNWYgUIWdPx67hxfYAodf5DYuBDqEyWwQGAAAAAElFTkSuQmCC">
+<title>Barra Pro — Tu Rutina Completa</title>
+
+</head>
+<body>
+<div class="offline-banner">📡 Sin conexión — los datos se guardan localmente</div>
+<nav class="tb" role="navigation" aria-label="Navegación principal">
+  <div class="tbi">
+    <div class="brand">BARRA PRO</div>
+    <button type="button" class="nb on" aria-label="Pestaña Hoy" onclick="go('hoy',this)">🏋️ Hoy</button>
+    <button type="button" class="nb" aria-label="Pestaña Programa" onclick="go('programa',this)">Programa</button>
+    <button type="button" class="nb" aria-label="Pestaña Ejercicios" onclick="go('ejercicios',this)">Ejercicios</button>
+    <button type="button" class="nb" aria-label="Pestaña Bandas" onclick="go('bandas',this)">Bandas</button>
+    <button type="button" class="nb" aria-label="Pestaña Progresión" onclick="go('progresion',this)">Progresión</button>
+    <button type="button" class="nb" aria-label="Pestaña Peso" onclick="go('peso',this)">Peso</button>
+    <button type="button" class="nb" aria-label="Pestaña Tracker" onclick="go('tracker',this)">Tracker</button>
+    <button type="button" class="nb" aria-label="Pestaña Logros" onclick="go('logros',this)">🏆</button>
+    <button type="button" class="nb" aria-label="Ajustes" onclick="go('ajustes',this)">⚙️</button>
+    <div class="profile-switcher" id="profile-switcher">
+    <div class="profile-avatar active-profile" id="current-profile-avatar" aria-label="Cambiar perfil" onclick="toggleProfileDropdown()" title="Cambiar perfil">?</div>
+  </div>
+</div>
+</nav>
+<div class="swipe-hint">← desliza para navegar →</div>
+
+<!-- Profile Dropdown -->
+<div class="profile-dropdown hidden" id="profile-dropdown">
+  <div class="profile-dropdown-header">
+    <div class="profile-dropdown-title">Perfiles</div>
+  </div>
+  <div class="profile-list" id="profile-list"></div>
+  <div class="profile-add-btn" aria-label="Nuevo perfil" onclick="showCreateProfile()">
+    <span style="font-size:18px;line-height:1">＋</span> Nuevo perfil
+  </div>
+  <div class="profile-create-panel" id="profile-create-panel">
+    <div style="font-size:13px;font-weight:600;color:var(--ink);margin-bottom:8px">Crear perfil</div>
+    <input type="text" id="profile-name-input" aria-label="Nombre del perfil" class="sync-input" placeholder="Nombre del perfil" maxlength="20" style="margin-bottom:8px">
+    <div style="font-size:11px;color:var(--ink3);margin-bottom:4px">Emoji</div>
+    <div class="profile-emoji-grid" id="profile-emoji-grid"></div>
+    <div style="font-size:11px;color:var(--ink3);margin-bottom:4px">Color</div>
+    <div class="profile-color-grid" id="profile-color-grid"></div>
+    <div style="display:flex;gap:7px;margin-top:10px">
+      <button type="button" class="btn btn-blue btn-sm" aria-label="Crear perfil" onclick="createProfile()" style="flex:1;justify-content:center">Crear</button>
+      <button type="button" class="btn btn-ghost btn-sm" aria-label="Cancelar" onclick="cancelCreateProfile()">Cancelar</button>
+    </div>
+  </div>
+</div>
+<main class="main" role="main">
+
+<div id="hoy" class="pg on">
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:2px">
+    <div class="h1" style="margin:0">¿Qué día entrenamos?</div>
+    <div id="hoy-week-badge" style="font-size:11px;font-weight:700;background:var(--blue);color:#fff;border-radius:20px;padding:3px 10px;letter-spacing:.04em;flex-shrink:0">SEM —</div>
+  </div>
+  <p class="sub" id="hoy-fecha"></p>
+
+  <!-- Day selector -->
+
+  <!-- Quick weight log -->
+  <div class="quick-weight" id="quick-weight-widget">
+    <div style="flex:1">
+      <div style="font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:2px">Peso de hoy</div>
+      <div style="font-size:13px;font-weight:600;color:var(--ink)" id="quick-weight-display">—</div>
+    </div>
+    <input type="number" class="quick-weight-input" id="quick-weight-inp" aria-label="Peso de hoy en libras" placeholder="208" step="0.1" min="80" max="500" onkeydown="if(event.key==='Enter')quickWeightSave()">
+    <span style="font-size:13px;color:var(--ink3)">lb</span>
+    <button type="button" class="btn btn-blue btn-sm" aria-label="Guardar peso" onclick="quickWeightSave()">Guardar</button>
+  </div>
+  <div id="weekly-challenge" style="display:none;background:var(--abg);border:1px solid var(--aborder);border-radius:var(--r);padding:14px 16px;margin-bottom:14px"></div>
+
+  <!-- Rest day banner (shown on rest days) -->
+  <div id="hoy-rest-banner" style="display:none;margin-bottom:16px">
+    <div class="co gr" style="padding:16px;border-radius:var(--r);font-size:14px">
+      <div class="ci" style="font-size:24px">😴</div>
+      <div class="ct">
+        <strong id="hoy-rest-day-name">Miércoles — Día de descanso</strong><br>
+        <span style="font-size:13px">Hoy toca descansar y recuperar. Puedes salir a caminar 30 minutos si quieres mantenerte activo.<br>
+        El músculo crece en el descanso, no en el gym.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hoy-day-grid" id="hoy-day-grid">
+    <div class="hoy-day-btn" onclick="selectHoyDay(1,this)" id="hoy-d1">
+      <div class="hoy-day-label">DÍA 1</div>
+      <div class="hoy-day-name">Lunes</div>
+      <div class="hoy-day-focus">Tirón</div>
+    </div>
+    <div class="hoy-day-btn" onclick="selectHoyDay(2,this)" id="hoy-d2">
+      <div class="hoy-day-label">DÍA 2</div>
+      <div class="hoy-day-name">Martes</div>
+      <div class="hoy-day-focus">Empuje</div>
+    </div>
+    <div class="hoy-day-btn" onclick="selectHoyDay(3,this)" id="hoy-d3">
+      <div class="hoy-day-label">DÍA 3</div>
+      <div class="hoy-day-name">Jueves</div>
+      <div class="hoy-day-focus">Tirón+Banda</div>
+    </div>
+    <div class="hoy-day-btn" onclick="selectHoyDay(4,this)" id="hoy-d4">
+      <div class="hoy-day-label">DÍA 4</div>
+      <div class="hoy-day-name">Sábado</div>
+      <div class="hoy-day-focus">Full+Test⭐</div>
+    </div>
+  </div>
+
+  <!-- START PANEL -->
+  <div id="hoy-start-panel" style="display:none;margin-bottom:16px">
+    <div class="card" style="border:2px solid var(--blue)">
+      <div style="font-size:18px;font-weight:700;margin-bottom:4px" id="hoy-start-day-name"></div>
+      <div style="font-size:13px;color:var(--ink2);margin-bottom:16px" id="hoy-start-info"></div>
+      <!-- Warmup requirement -->
+      <div id="hoy-warmup-req" style="display:none;margin-bottom:16px">
+        <div class="co am" style="margin-bottom:10px">
+          <div class="ci">⚠️</div>
+          <div class="ct"><strong>Calentamiento obligatorio</strong> — Los días de tirón requieren calentar los hombros primero para evitar lesiones.</div>
+        </div>
+        <button type="button" class="btn btn-blue btn-lg" style="width:100%;justify-content:center;margin-bottom:8px" aria-label="Iniciar calentamiento" onclick="startWarmup()">
+          🌡️ Iniciar calentamiento
+        </button>
+        <div id="warmup-done-badge" style="display:none" class="co gr">
+          <div class="ci">✅</div><div class="ct"><strong>Calentamiento completado.</strong> Ya puedes entrenar.</div>
+        </div>
+      </div>
+      <div id="band-suggestion" style="display:none;background:var(--obg);border:1px solid var(--oborder);border-radius:var(--rs);padding:12px 14px;margin-bottom:12px"></div>
+      <button type="button" class="btn btn-green btn-lg disabled-btn" style="width:100%;justify-content:center" id="start-train-btn" aria-label="Comenzar entrenamiento" onclick="startTraining()">
+        💪 Comenzar entrenamiento
+      </button>
+    </div>
+  </div>
+
+  <!-- WARMUP MODE (full screen card) -->
+  <div id="warmup-mode" style="display:none;margin-bottom:16px">
+    <div class="card" style="border:2px solid var(--amber)">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
+        <div style="font-size:16px;font-weight:700;color:var(--amber)">🌡️ Calentamiento</div>
+        <div style="font-size:13px;color:var(--ink3)" id="warmup-progress-label">0 / 4</div>
+      </div>
+      <!-- Progress bar -->
+      <div style="height:4px;background:var(--border);border-radius:99px;overflow:hidden;margin-bottom:16px">
+        <div id="warmup-prog-bar" style="height:4px;background:var(--amber);border-radius:99px;width:0%;transition:width .4s ease"></div>
+      </div>
+      <!-- Current step -->
+      <div id="warmup-step-content" style="margin-bottom:16px"></div>
+      <!-- Navigation -->
+      <div style="display:flex;gap:8px">
+        <button type="button" class="btn btn-blue btn-lg" style="flex:1;justify-content:center" id="warmup-next-btn" onclick="nextWarmupStep()">
+          Siguiente →
+        </button>
+        <button type="button" class="btn btn-ghost btn-sm" aria-label="Saltar calentamiento" onclick="confirmSkipWarmup()">Saltar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Training content -->
+  <div id="hoy-training" style="display:none">
+    <!-- Session status bar -->
+    <div class="card" style="margin-bottom:12px;padding:12px 16px">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">
+        <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+          <div><span style="font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.06em">Series</span><div style="font-size:20px;font-weight:700;font-family:'JetBrains Mono',monospace;color:var(--blue)" id="hoy-series-done">0/<span id="hoy-series-total">0</span></div></div>
+          <div><span style="font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.06em">Tiempo</span><div style="font-size:20px;font-weight:700;font-family:'JetBrains Mono',monospace;color:var(--ink)" id="hoy-elapsed">0:00</div></div>
+          <div><span style="font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.06em">Ejercicio</span><div style="font-size:13px;font-weight:600;color:var(--ink);max-width:140px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" id="hoy-current-ex">—</div></div>
+        </div>
+        <div style="display:flex;gap:7px;align-items:center">
+          <div id="wake-lock-indicator" title="Pantalla encendida" style="font-size:16px;cursor:pointer" onclick="toggleWakeLock()">📱</div>
+          <button type="button" class="btn btn-green btn-sm" aria-label="Finalizar sesión" onclick="finishSession()" id="finish-btn" style="display:none">Terminar 🏁</button>
+        </div>
+      </div>
+      <!-- Progress bar -->
+      <div style="margin-top:10px;height:4px;background:var(--border);border-radius:99px;overflow:hidden">
+        <div id="hoy-prog-bar" style="height:4px;background:var(--blue);border-radius:99px;width:0%;transition:width .4s ease"></div>
+      </div>
+    </div>
+
+    <!-- Motivational message -->
+    <div class="msg-motivacional" id="hoy-msg" style="display:none"></div>
+
+    <!-- Exercise list -->
+    <div class="training-list" id="training-list"></div>
+
+    <!-- Session summary -->
+    <div class="session-summary" id="session-summary">
+      <div class="summary-title">🎉 ¡Entrenamiento completado!</div>
+      <div class="summary-stats">
+        <div class="summary-stat"><div class="summary-stat-val" id="sum-series">0</div><div class="summary-stat-lbl">Series</div></div>
+        <div class="summary-stat"><div class="summary-stat-val" id="sum-time">0:00</div><div class="summary-stat-lbl">Tiempo</div></div>
+        <div class="summary-stat"><div class="summary-stat-val" id="sum-ex">0</div><div class="summary-stat-lbl">Ejercicios</div></div>
+      </div>
+      <div style="margin-bottom:10px">
+        <div style="font-size:13px;font-weight:600;color:var(--ink);margin-bottom:8px">¿Cómo te sentiste?</div>
+        <div class="feeling-row">
+          <button type="button" class="feeling-btn" onclick="setFeeling(1,this)" title="Muy mal">😓</button>
+          <button type="button" class="feeling-btn" onclick="setFeeling(2,this)" title="Regular">😐</button>
+          <button type="button" class="feeling-btn" onclick="setFeeling(3,this)" title="Bien">🙂</button>
+          <button type="button" class="feeling-btn" onclick="setFeeling(4,this)" title="Muy bien">😄</button>
+          <button type="button" class="feeling-btn" onclick="setFeeling(5,this)" title="Increíble">🔥</button>
+        </div>
+      </div>
+      <div style="margin-bottom:12px">
+        <div style="font-size:13px;font-weight:600;color:var(--ink);margin-bottom:6px">Notas de hoy</div>
+        <textarea class="notes-area" id="session-notes" placeholder="¿Algo que quieras recordar de este entrenamiento?"></textarea>
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <button type="button" class="btn btn-blue" aria-label="Guardar sesión" onclick="saveSession()">Guardar sesión 💾</button>
+        <button type="button" class="btn btn-ghost" aria-label="Reiniciar entrenamiento" onclick="resetHoy()">Nuevo entrenamiento</button>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+<div class="prep-overlay" id="prepOverlay">
+  <div class="prep-count" id="prepCount">5</div>
+  <div class="prep-text">Prepárate</div>
+  <div class="prep-next" id="prepNext"></div>
+</div>
+
+<div id="programa" class="pg">
+  <div class="ibox">
+    <div class="iico">📋</div>
+    <div>
+      <div class="ititle">Cómo usar esta pestaña</div>
+      <div class="ibody">Elige el día para ver qué hacer, en qué orden y cuánto descansar. Para entrenar con checkmarks y cronómetro automático, usa la pestaña <strong>🏋️ Hoy</strong>.</div>
+    </div>
+  </div>
+  <div class="h1">Tu programa semanal</div>
+  <p class="sub">4 días · Perder peso y definir · 208 lb · 10 semanas</p>
+  <div class="co gr"><div class="ci">✅</div><div class="ct"><strong>Reactivación completada.</strong> 2 semanas de grease the groove te llevaron de 1-2 a 4 reps. Entras directo a Fase 1.</div></div>
+  <div class="co am"><div class="ci">⚠️</div><div class="ct"><strong>Cambio clave:</strong> 4 días estructurados, 3 días de caminata (Mié, Vie, Dom). El descanso es donde el músculo crece.</div></div>
+  <div class="legend">
+    <div class="leg"><div class="ldot" style="background:#1D4ED8"></div>Pull: 90s</div>
+    <div class="leg"><div class="ldot" style="background:#9D174D"></div>Push: 60s</div>
+    <div class="leg"><div class="ldot" style="background:#065F46"></div>Core: 45s</div>
+    <div class="leg"><div class="ldot" style="background:#92400E"></div>Entre ejercicios: 2 min</div>
+  </div>
+  <div class="dg">
+    <button type="button" class="db on" onclick="switchDay2('dp1',this)"><div class="dnum">DÍA 1</div><div class="dname">Lunes</div><div class="dfocus">Tirón</div></button>
+    <button type="button" class="db" onclick="switchDay2('dp2',this)"><div class="dnum">DÍA 2</div><div class="dname">Martes</div><div class="dfocus">Empuje</div></button>
+    <button type="button" class="db" onclick="switchDay2('dp3',this)"><div class="dnum">DÍA 3</div><div class="dname">Jueves</div><div class="dfocus">Tirón+Banda</div></button>
+    <button type="button" class="db" onclick="switchDay2('dp4',this)"><div class="dnum">DÍA 4</div><div class="dname">Sábado</div><div class="dfocus">Full+Test ⭐</div></button>
+  </div>
+
+  <div id="dp1" class="dp on">
+    <div class="co bl"><div class="ci">💡</div><div class="ct"><strong>Tirón vertical.</strong> Al máximo limpio, baja contando "uno, dos".</div></div>
+    <div class="wc"><table class="wt">
+      <thead><tr><th style="width:50%">Ejercicio</th><th>Series</th><th>Descanso</th></tr></thead>
+      <tbody>
+        <tr><td><div class="en">Wide pull-up</div><div class="enote">Agarre ancho, palmas afuera. Al máximo.</div></td><td><span class="reps">4 × max</span></td><td><span class="rb rp">90s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Neutral pull-up</div><div class="enote">Mangos paralelos, palmas enfrentadas.</div></td><td><span class="reps">3 × max</span></td><td><span class="rb rp">90s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Chin-up supino</div><div class="enote">Palmas hacia ti. El más fácil.</div></td><td><span class="reps">3 × max</span></td><td><span class="rb rp">90s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Wall slide</div><div class="enote">Espalda en la pared, brazos en W, desliza hasta Y.</div></td><td><span class="reps">3 × 10</span></td><td><span class="rb rc">45s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Dead bug</div><div class="enote">Espalda pegada al piso, extiende brazo y pierna opuestos.</div></td><td><span class="reps">3 × 8/lado</span></td><td><span class="rb rc">45s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Reverse crunch</div><div class="enote">Boca arriba, sube caderas llevando rodillas al pecho.</div></td><td><span class="reps">3 × 12</span></td><td><span class="rb rc">45s</span></td></tr>
+      </tbody>
+    </table><div class="wfoot">⏰ ~45-50 min · Para entrenamiento guiado → pestaña <strong>🏋️ Hoy</strong></div></div>
+  </div>
+
+  <div id="dp2" class="dp">
+    <div class="co bl"><div class="ci">💡</div><div class="ct"><strong>Empuje + core.</strong> La barra al piso hoy. Sin pull-ups.</div></div>
+    <div class="wc"><table class="wt">
+      <thead><tr><th style="width:50%">Ejercicio</th><th>Series</th><th>Descanso</th></tr></thead>
+      <tbody>
+        <tr><td><div class="en">Push-up en barra</div><div class="enote">Barra al piso, cuerpo recto. Al máximo.</div></td><td><span class="reps">4 × max</span></td><td><span class="rb rs">60s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Push-up diamante</div><div class="enote">Manos formando diamante. Tríceps.</div></td><td><span class="reps">3 × 10</span></td><td><span class="rb rs">60s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Push-up arquero</div><div class="enote">Un brazo extendido, alterna.</div></td><td><span class="reps">3 × 6/lado</span></td><td><span class="rb rs">60s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Pike push-up</div><div class="enote">Cadera en V, baja la cabeza entre las manos.</div></td><td><span class="reps">3 × 10</span></td><td><span class="rb rs">60s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Plank</div><div class="enote">Cuerpo recto, glúteos activados.</div></td><td><span class="reps">3 × 30s</span></td><td><span class="rb rc">45s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Mountain climber</div><div class="enote">Rodillas al pecho alternando.</div></td><td><span class="reps">3 × 20</span></td><td><span class="rb rc">45s</span></td></tr>
+      </tbody>
+    </table><div class="wfoot">⏰ ~40-45 min</div></div>
+  </div>
+
+  <div id="dp3" class="dp">
+    <div class="co or"><div class="ci">🎯</div><div class="ct"><strong>Tirón + volumen.</strong> Hoy usas la <strong>banda roja</strong>. Objetivo: 8-10 reps limpias por serie.</div></div>
+    <div class="wc"><table class="wt">
+      <thead><tr><th style="width:50%">Ejercicio</th><th>Series</th><th>Descanso</th></tr></thead>
+      <tbody>
+        <tr><td><div class="en">Wide pull-up <span style="color:var(--orange);font-weight:400">+ banda roja</span></div><div class="enote">Rodilla en la banda. Mismo movimiento.</div></td><td><span class="reps">4 × 8-10</span></td><td><span class="rb rp">90s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Remo con banda</div><div class="enote">Banda arriba en la barra, inclinado 45°, jala los codos.</div></td><td><span class="reps">4 × 12</span></td><td><span class="rb rp">90s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Narrow pull-up <span style="color:var(--orange);font-weight:400">+ banda roja</span></div><div class="enote">Agarre estrecho, bíceps.</div></td><td><span class="reps">3 × 8</span></td><td><span class="rb rp">90s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Negativas lentas</div><div class="enote">Salta arriba, baja en 4-6 seg.</div></td><td><span class="reps">3 × 5</span></td><td><span class="rb rp">90s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Curl bíceps <span style="color:var(--amber);font-weight:400">+ banda amarilla</span></div><div class="enote">Pisa la banda, curls lentos.</div></td><td><span class="reps">3 × 15</span></td><td><span class="rb rs">60s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Sit-up con pies en barra</div><div class="enote">Pies anclados bajo la barra en el suelo.</div></td><td><span class="reps">3 × 15</span></td><td><span class="rb rc">45s</span></td></tr>
+      </tbody>
+    </table><div class="wfoot">⏰ ~50-55 min</div></div>
+  </div>
+
+  <div id="dp4" class="dp">
+    <div class="co gr"><div class="ci">⭐</div><div class="ct"><strong>Full body + Test semanal.</strong> La primera serie de wide pull-ups es tu marca. Anótala en el Tracker al terminar.</div></div>
+    <div class="wc"><table class="wt">
+      <thead><tr><th style="width:50%">Ejercicio</th><th>Series</th><th>Descanso</th></tr></thead>
+      <tbody>
+        <tr><td><div class="en">Wide pull-up — TEST ⭐</div><div class="enote">Primera serie = tu marca semanal.</div></td><td><span class="reps">3 × max</span></td><td><span class="rb rp">90s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Push-up explosivo</div><div class="enote">Empuja hasta despegar las manos.</div></td><td><span class="reps">3 × 8</span></td><td><span class="rb rs">60s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Burpee</div><div class="enote">Pecho al suelo, salta con palmas arriba.</div></td><td><span class="reps">4 × 10</span></td><td><span class="rb rs">60s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Jump squat</div><div class="enote">Baja a 90°, explota arriba, aterriza suave.</div></td><td><span class="reps">4 × 12</span></td><td><span class="rb rs">60s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">V-up</div><div class="enote">Brazos y piernas a la vez formando V.</div></td><td><span class="reps">3 × 12</span></td><td><span class="rb rc">45s</span></td></tr>
+        <tr class="brow"><td colspan="3"><div class="bc">⏱ 2 min antes del siguiente</div></td></tr>
+        <tr><td><div class="en">Plank lateral</div><div class="enote">Cuerpo recto de lado. Un lado, luego el otro.</div></td><td><span class="reps">3 × 20s/lado</span></td><td><span class="rb rc">45s</span></td></tr>
+      </tbody>
+    </table><div class="wfoot">⏰ ~50-55 min · 📊 Al terminar → <strong>Tracker</strong></div></div>
+  </div>
+</div>
+<div id="ejercicios" class="pg">
+  <div class="ibox">
+    <div class="iico">🎬</div>
+    <div>
+      <div class="ititle">Cómo usar esta pestaña</div>
+      <div class="ibody">Los ejercicios están en el <strong>mismo orden</strong> en que los haces cada día. Toca cualquier ejercicio para ver los pasos y el video. El video <strong>se reproduce aquí mismo</strong> — solo toca el botón rojo de play, sin salir de la app.</div>
+    </div>
+  </div>
+  <div class="h1">Guía de ejercicios por día</div>
+  <div class="sub">Mismo orden que el programa · Toca para ver pasos y video</div>
+<div class="gh"><div class="glabel">Día 1 · Lunes — Tirón vertical</div><div class="gline"></div></div>
+<div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#EEF3FD">💪</div><div><div class="ename">Wide pull-up</div><div class="etag">Ejercicio principal · Espalda + bíceps</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    
+    <div class="tags"><span class="tag">Espalda (lats)</span><span class="tag">Bíceps</span><span class="tag">Hombro posterior</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Agarra la barra más ancha que tus hombros. Las palmas miran hacia afuera — lejos de tu cara.</li><li><span class="sn">2</span>Antes de subir, baja los hombros lejos de las orejas. Imagina meterte los omóplatos en los bolsillos traseros del pantalón.</li><li><span class="sn">3</span>Jala los codos hacia abajo y hacia tus caderas. Sube hasta que el mentón pase la barra.</li><li><span class="sn">4</span>Baja contando "uno, dos". No te dejes caer — controla el descenso siempre.</li><li><span class="sn">5</span>Si el cuerpo balancea, aprieta glúteos y abdomen durante todo el movimiento.</li></ul>
+    <div class="tip"><strong>💡 </strong>Error más común: los hombros suben hacia las orejas al subir. Cuando pasa, solo trabajan los trapecios, no la espalda. Mantén los hombros abajo en todo momento.</div>
+  </div>
+</div><div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#EEF3FD">🤲</div><div><div class="ename">Neutral pull-up</div><div class="etag">Mangos paralelos · Más amigable con hombros</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v2">
+  <img class="vthumb" src="https://img.youtube.com/vi/Ai4S1uzMP7A/hqdefault.jpg" alt="">
+  <div class="vover" onclick="playV('v2','Ai4S1uzMP7A')"><div class="pbtn"><div class="ptri"></div></div></div>
+  <div class="vhint">Toca para reproducir</div>
+  <div class="vframe"><iframe allowfullscreen allow="autoplay;encrypted-media"></iframe></div>
+</div>
+    <div class="tags"><span class="tag">Espalda (lats)</span><span class="tag">Bíceps</span><span class="tag">Antebrazo</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Agarra los mangos paralelos de tu barra — los que apuntan hacia ti. Las palmas se miran entre sí.</li><li><span class="sn">2</span>Cuelga con los brazos completamente estirados.</li><li><span class="sn">3</span>Sube jalando los codos hacia tus costillas. Piensa en "llevar los codos al piso".</li><li><span class="sn">4</span>Sube hasta que el pecho quede a la altura de los mangos. Baja en 2 segundos.</li></ul>
+    <div class="tip"><strong>💡 </strong>Por qué lo haces después del wide: es más amigable con los hombros y codos — perfecto cuando ya están cansados del wide pull-up.</div>
+  </div>
+</div><div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#EEF3FD">🔄</div><div><div class="ename">Chin-up supino</div><div class="etag">Palmas hacia ti · El más fácil de los tres</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    
+    <div class="tags"><span class="tag">Bíceps</span><span class="tag">Espalda (lats)</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Agarra la barra con las palmas mirando hacia tu cara, al ancho de los hombros.</li><li><span class="sn">2</span>Cuelga con los brazos completamente estirados.</li><li><span class="sn">3</span>Sube jalando los codos hacia abajo y atrás. Mentón sobre la barra.</li><li><span class="sn">4</span>Baja en 2 segundos. Sin soltar ni balancear.</li></ul>
+    <div class="tip"><strong>💡 </strong>Diferencia con el wide: solo cambian las palmas — activa más bíceps y es un poco más fácil. Perfecto para el final del bloque cuando ya estás cansado.</div>
+  </div>
+</div><div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#EEF3FD">🧱</div><div><div class="ename">Wall slide</div><div class="etag">Movilidad de hombro · Protege el hombro en dominadas</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="tags"><span class="tag">Hombros</span><span class="tag">Serrato anterior</span><span class="tag">Trapecio inferior</span></div>
+    <ul class="steps">
+      <li><span class="sn">1</span>Párate con la espalda completamente pegada a la pared — cabeza, hombros, espalda baja y glúteos tocando la pared.</li>
+      <li><span class="sn">2</span>Sube los brazos y ponlos en forma de W: codos doblados a 90°, pegados a la pared, manos a la altura de la cabeza.</li>
+      <li><span class="sn">3</span>Lentamente desliza los brazos hacia arriba por la pared hasta formar una Y, manteniendo codos y muñecas pegados en todo momento.</li>
+      <li><span class="sn">4</span>Vuelve lento a la W. Si los codos o muñecas se despegan de la pared, es señal de que tienes tensión en los hombros — trabájalo con rango reducido.</li>
+    </ul>
+    <div class="tip"><strong>Por qué importa:</strong> Activa el serrato anterior y el trapecio inferior, los músculos que estabilizan el hombro durante las dominadas. Hacerlo bien aquí protege tus hombros a largo plazo.</div>
+  </div>
+</div>
+<div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#ECFDF5">🐛</div><div><div class="ename">Dead bug</div><div class="etag">Core profundo · Aprende a estabilizar la lumbar</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v5">
+  <img class="vthumb" src="https://img.youtube.com/vi/g_BYB0R-4Ws/hqdefault.jpg" alt="">
+  <div class="vover" onclick="playV('v5','g_BYB0R-4Ws')"><div class="pbtn"><div class="ptri"></div></div></div>
+  <div class="vhint">Toca para reproducir</div>
+  <div class="vframe"><iframe allowfullscreen allow="autoplay;encrypted-media"></iframe></div>
+</div>
+    <div class="tags"><span class="tag">Core profundo</span><span class="tag">Transverso abdominal</span><span class="tag">Coordinación</span></div>
+    <ul class="steps">
+      <li><span class="sn">1</span>Acuéstate boca arriba. Pega la espalda baja al piso — ese contacto no se pierde en ningún momento del ejercicio.</li>
+      <li><span class="sn">2</span>Sube los brazos apuntando al techo. Dobla las rodillas a 90° con los muslos verticales (como una mesa).</li>
+      <li><span class="sn">3</span>Lentamente: extiende el brazo derecho hacia atrás y la pierna izquierda hacia adelante al mismo tiempo. Ambos quedan casi paralelos al piso — sin tocar.</li>
+      <li><span class="sn">4</span>Vuelve al centro controlado. Ahora el otro lado: brazo izquierdo + pierna derecha. Eso es 1 rep por lado.</li>
+    </ul>
+    <div class="tip"><strong>La clave:</strong> si la espalda baja se despega del piso, el movimiento fue demasiado largo. Acorta el rango hasta que el core sea suficientemente fuerte para controlarlo. Calidad sobre cantidad siempre.</div>
+  </div>
+</div>
+<div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#ECFDF5">🔄</div><div><div class="ename">Reverse crunch</div><div class="etag">Core inferior · Sin necesidad de altura</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="tags"><span class="tag">Core inferior</span><span class="tag">Flexores de cadera</span><span class="tag">Abdomen</span></div>
+    <ul class="steps">
+      <li><span class="sn">1</span>Acuéstate boca arriba con las manos a los lados o bajo los glúteos para apoyo. Piernas dobladas a 90°, muslos verticales.</li>
+      <li><span class="sn">2</span>Pega la espalda baja al piso — ese contacto no se pierde.</li>
+      <li><span class="sn">3</span>Usando el abdomen (no el impulso), sube las caderas del piso llevando las rodillas hacia el pecho. Las caderas se despegan unos centímetros.</li>
+      <li><span class="sn">4</span>Baja lento controlando el movimiento. No dejes caer las piernas — la bajada es donde se construye la fuerza.</li>
+    </ul>
+    <div class="tip"><strong>La diferencia con el crunch normal:</strong> aquí mueves las caderas hacia el pecho, no el pecho hacia las caderas. Activa el core inferior que las dominadas necesitan para estabilizar el cuerpo.</div>
+  </div>
+</div>
+<div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#FDF2F8">💥</div><div><div class="ename">Push-up en barra</div><div class="etag">Pecho + tríceps + hombro frontal</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v7">
+  <img class="vthumb" src="https://img.youtube.com/vi/IODxDxX7oi4/hqdefault.jpg" alt="">
+  <div class="vover" onclick="playV('v7','IODxDxX7oi4')"><div class="pbtn"><div class="ptri"></div></div></div>
+  <div class="vhint">Toca para reproducir</div>
+  <div class="vframe"><iframe allowfullscreen allow="autoplay;encrypted-media"></iframe></div>
+</div>
+    <div class="tags"><span class="tag">Pecho</span><span class="tag">Tríceps</span><span class="tag">Hombro frontal</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Pon la barra en el piso. Agárrala al ancho de los hombros. El cuerpo recto de cabeza a talones.</li><li><span class="sn">2</span>Baja el pecho hasta casi tocar la barra. Codos a 45° — ni pegados ni completamente abiertos.</li><li><span class="sn">3</span>Empuja hasta estirar los brazos. Glúteos y abdomen apretados durante toda la rep.</li></ul>
+    <div class="tip"><strong>💡 </strong>Ventaja de la barra: el agarre neutro pone la muñeca en posición más natural que el piso, permite bajar más y trabajar mejor el pecho.</div>
+  </div>
+</div><div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#FDF2F8">💎</div><div><div class="ename">Push-up diamante</div><div class="etag">Tríceps + pecho interno</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v8">
+  <img class="vthumb" src="https://img.youtube.com/vi/PPTj-MW2tcs/hqdefault.jpg" alt="">
+  <div class="vover" onclick="playV('v8','PPTj-MW2tcs')"><div class="pbtn"><div class="ptri"></div></div></div>
+  <div class="vhint">Toca para reproducir</div>
+  <div class="vframe"><iframe allowfullscreen allow="autoplay;encrypted-media"></iframe></div>
+</div>
+    <div class="tags"><span class="tag">Tríceps</span><span class="tag">Pecho interno</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Posición de push-up. Junta las manos en el centro del pecho formando un diamante con los dedos.</li><li><span class="sn">2</span>Baja el pecho hacia las manos. Los codos van hacia atrás, no hacia los lados.</li><li><span class="sn">3</span>Empuja hacia arriba apretando los tríceps al final.</li></ul>
+    <div class="tip"><strong>💡 </strong>Si no llegas al piso: empieza con las manos en la barra — un poco más alto, más fácil, mientras ganas fuerza en los tríceps.</div>
+  </div>
+</div><div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#FDF2F8">🏹</div><div><div class="ename">Push-up arquero</div><div class="etag">Pecho unilateral · Precursor del one-arm push-up</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v9">
+  <img class="vthumb" src="https://img.youtube.com/vi/mzr0RYNDzzI/hqdefault.jpg" alt="">
+  <div class="vover" onclick="playV('v9','mzr0RYNDzzI')"><div class="pbtn"><div class="ptri"></div></div></div>
+  <div class="vhint">Toca para reproducir</div>
+  <div class="vframe"><iframe allowfullscreen allow="autoplay;encrypted-media"></iframe></div>
+</div>
+    <div class="tags"><span class="tag">Pecho</span><span class="tag">Tríceps</span><span class="tag">Hombro</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Push-up con las manos más anchas que normal. Extiende un brazo completamente hacia el lado.</li><li><span class="sn">2</span>Baja el pecho hacia el lado del brazo doblado. El brazo extendido se estira más.</li><li><span class="sn">3</span>Sube y alterna el lado. 6 reps por cada lado.</li></ul>
+    <div class="tip"><strong>💡 </strong>Si es muy difícil: no extiendas el brazo completamente. Empieza a 45° y ve aumentando semana a semana.</div>
+  </div>
+</div><div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#FDF2F8">🔺</div><div><div class="ename">Pike push-up</div><div class="etag">Hombros · Preparación para handstand push-up</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v10">
+  <img class="vthumb" src="https://img.youtube.com/vi/eG20L9cl81w/hqdefault.jpg" alt="">
+  <div class="vover" onclick="playV('v10','eG20L9cl81w')"><div class="pbtn"><div class="ptri"></div></div></div>
+  <div class="vhint">Toca para reproducir</div>
+  <div class="vframe"><iframe allowfullscreen allow="autoplay;encrypted-media"></iframe></div>
+</div>
+    <div class="tags"><span class="tag">Hombros</span><span class="tag">Tríceps</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Posición de push-up, luego sube la cadera formando una V invertida.</li><li><span class="sn">2</span>Baja la cabeza entre las manos doblando los codos.</li><li><span class="sn">3</span>Sube empujando hasta volver a la V. Cuanto más vertical el cuerpo, más difícil.</li></ul>
+    <div class="tip"><strong>💡 </strong>Por qué importa: hombros fuertes = pull-ups más seguras a largo plazo.</div>
+  </div>
+</div><div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#ECFDF5">⬛</div><div><div class="ename">Plank</div><div class="etag">Core · Estabilidad total del cuerpo</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v11">
+  <img class="vthumb" src="https://img.youtube.com/vi/pSHjTRCQxIw/hqdefault.jpg" alt="">
+  <div class="vover" onclick="playV('v11','pSHjTRCQxIw')"><div class="pbtn"><div class="ptri"></div></div></div>
+  <div class="vhint">Toca para reproducir</div>
+  <div class="vframe"><iframe allowfullscreen allow="autoplay;encrypted-media"></iframe></div>
+</div>
+    <div class="tags"><span class="tag">Core completo</span><span class="tag">Hombros</span><span class="tag">Glúteos</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Apoya los antebrazos en el piso, codo debajo del hombro. Cuerpo completamente recto.</li><li><span class="sn">2</span>Aprieta los glúteos y el abdomen. La cadera no sube ni baja.</li><li><span class="sn">3</span>Mira al piso. Respira normal y aguanta el tiempo indicado.</li></ul>
+    <div class="tip"><strong>💡 </strong>Si la cadera cae antes de los 30s: descansa unos segundos y sube de nuevo. Dos partes bien hechas son mejor que 30s mal.</div>
+  </div>
+</div><div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#ECFDF5">🏃</div><div><div class="ename">Mountain climber</div><div class="etag">Core + cardio · Rodillas al pecho alternando</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v12">
+  <img class="vthumb" src="https://img.youtube.com/vi/nmwgirgXLYM/hqdefault.jpg" alt="">
+  <div class="vover" onclick="playV('v12','nmwgirgXLYM')"><div class="pbtn"><div class="ptri"></div></div></div>
+  <div class="vhint">Toca para reproducir</div>
+  <div class="vframe"><iframe allowfullscreen allow="autoplay;encrypted-media"></iframe></div>
+</div>
+    <div class="tags"><span class="tag">Core</span><span class="tag">Cadera</span><span class="tag">Cardio</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Posición de push-up con los brazos estirados.</li><li><span class="sn">2</span>Jala una rodilla al pecho rápido. Vuelve y jala la otra. 20 reps = 10 por lado.</li><li><span class="sn">3</span>Las caderas no suben ni bajan durante todo el movimiento.</li></ul>
+    <div class="tip"><strong>💡 </strong>Ritmo: empieza lento hasta que la posición sea sólida, luego acelera. Constante quema más que rápido y desordenado.</div>
+  </div>
+</div><div class="gh"><div class="glabel">Día 3 · Jueves — Tirón + volumen</div><div class="gline"></div></div>
+<div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#FFF4EE">🟠</div><div><div class="ename">Wide pull-up + banda roja</div><div class="etag">Mismo movimiento, asistencia para más volumen</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v13" style="border-radius:8px;overflow:hidden;background:#f5f4f0;border:1px solid #e0ddd5;margin:13px 0 12px">
+  <div style="padding:14px 16px">
+    <div style="font-size:12px;color:var(--ink3);margin-bottom:10px">🎬 Video tutorial</div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+      <button type="button" onclick="openYT('v13','band+assisted+pull+up+banda+resistencia+dominadas')" style="display:inline-flex;align-items:center;gap:8px;background:#FF0000;color:#fff;border:none;border-radius:6px;padding:9px 16px;font-size:13px;font-family:inherit;font-weight:600;cursor:pointer;transition:all .15s">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="white"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 00.5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 002.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 002.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.75 15.5v-7l6.5 3.5-6.5 3.5z"/></svg>
+        Ver video
+      </button>
+      <span style="font-size:12px;color:var(--ink3)">Se abre en YouTube</span>
+    </div>
+  </div>
+  <div id="fr-v13" style="display:none;position:relative;padding-bottom:56.25%">
+    <iframe style="position:absolute;inset:0;width:100%;height:100%;border:none" allowfullscreen allow="autoplay;encrypted-media"></iframe>
+  </div>
+</div>
+    <div class="tags"><span class="tag">Espalda (lats)</span><span class="tag">Bíceps</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Cuelga la banda roja de la barra: pasa un extremo por el otro y jala hasta que quede firme.</li><li><span class="sn">2</span>Agarra la barra en agarre wide. Pon una rodilla dentro del lazo inferior de la banda.</li><li><span class="sn">3</span>Haz el pull-up exactamente igual que sin banda. La banda ayuda pero no cambia el movimiento.</li><li><span class="sn">4</span>Controla la bajada igual — no te dejes caer aunque la banda asista.</li></ul>
+    <div class="tip"><strong>💡 </strong>Objetivo del día 3: 8-10 reps con la banda roja. Si bajas de 6 reps en alguna serie, usa la banda azul esa semana.</div>
+  </div>
+</div><div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#EEF3FD">🎗️</div><div><div class="ename">Remo con banda</div><div class="etag">Espalda media · Sustituto del inverted row con tu barra</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div style="margin:13px 0 12px;background:#f5f4f0;border:1px solid #e0ddd5;border-radius:8px;padding:14px 16px">
+      <div style="font-size:12px;color:var(--ink3);margin-bottom:10px">🎬 Video tutorial</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+        <button type="button" onclick="window.open('https://www.youtube.com/results?search_query=band+row+resistance+band+back+exercise+tutorial','_blank')" style="display:inline-flex;align-items:center;gap:8px;background:#FF0000;color:#fff;border:none;border-radius:6px;padding:9px 16px;font-size:13px;font-family:inherit;font-weight:600;cursor:pointer">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="white"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 00.5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 002.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 002.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.75 15.5v-7l6.5 3.5-6.5 3.5z"/></svg>
+          Ver en YouTube
+        </button>
+        <span style="font-size:12px;color:var(--ink3)">Se abre en YouTube</span>
+      </div>
+    </div>
+    <div class="tags"><span class="tag">Espalda media</span><span class="tag">Romboides</span><span class="tag">Bíceps</span></div>
+    <ul class="steps">
+      <li><span class="sn">1</span>Ancla la banda a la barra arriba del marco de la puerta — pásala por el centro y haz un nudo firme.</li>
+      <li><span class="sn">2</span>Agarra los dos extremos de la banda con los brazos extendidos. Da un paso atrás y recuéstate hacia atrás unos 45°, como si fueras a hacer un inverted row pero de pie.</li>
+      <li><span class="sn">3</span>Jala los codos hacia las caderas apretando los omóplatos. El pecho sube hacia la barra.</li>
+      <li><span class="sn">4</span>Vuelve lento controlando la tensión. Eso es una rep.</li>
+      <li><span class="sn">5</span>Cuanto más te inclinas hacia atrás, más difícil. Empieza a 45° y ve aumentando la inclinación.</li>
+    </ul>
+    <div class="tip"><strong>Banda a usar:</strong> empieza con la roja o naranja. Si es muy fácil con 12 reps, combina dos bandas o inclínate más. El objetivo es que las últimas 3 reps de cada serie cuesten.</div>
+  </div>
+</div>
+<div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#EEF3FD">⬇️</div><div><div class="ename">Negativas lentas</div><div class="etag">El ejercicio que más rápido sube tus pull-ups</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v15">
+  <img class="vthumb" src="https://img.youtube.com/vi/A5q4qiSc_Aw/hqdefault.jpg" alt="">
+  <div class="vover" onclick="playV('v15','A5q4qiSc_Aw')"><div class="pbtn"><div class="ptri"></div></div></div>
+  <div class="vhint">Toca para reproducir</div>
+  <div class="vframe"><iframe allowfullscreen allow="autoplay;encrypted-media"></iframe></div>
+</div>
+    <div class="tags"><span class="tag">Espalda completa</span><span class="tag">Bíceps</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Salta o usa una silla para llegar al punto más alto — mentón sobre la barra.</li><li><span class="sn">2</span>Quita los pies y baja lo más lento que puedas. Cuenta en voz alta: uno… dos… tres… cuatro.</li><li><span class="sn">3</span>Cuando llegues abajo, vuelve a saltar arriba. Meta: 4-6 segundos por bajada.</li></ul>
+    <div class="tip"><strong>💡 </strong>Por qué funciona: bajar controlado trabaja el músculo más intensamente que subir. Es la forma más rápida de ganar fuerza en pull-ups.</div>
+  </div>
+</div><div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#FFFBEB">🟡</div><div><div class="ename">Face pull + curl con banda amarilla</div><div class="etag">Hombro + bíceps · No saltarse el face pull</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v16" style="border-radius:8px;overflow:hidden;background:#f5f4f0;border:1px solid #e0ddd5;margin:13px 0 12px">
+  <div style="padding:14px 16px">
+    <div style="font-size:12px;color:var(--ink3);margin-bottom:10px">🎬 Video tutorial</div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+      <button type="button" onclick="openYT('v16','face+pull+banda+resistencia+hombros+como+hacer')" style="display:inline-flex;align-items:center;gap:8px;background:#FF0000;color:#fff;border:none;border-radius:6px;padding:9px 16px;font-size:13px;font-family:inherit;font-weight:600;cursor:pointer;transition:all .15s">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="white"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 00.5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 002.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 002.1-2.1c.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.75 15.5v-7l6.5 3.5-6.5 3.5z"/></svg>
+        Ver video
+      </button>
+      <span style="font-size:12px;color:var(--ink3)">Se abre en YouTube</span>
+    </div>
+  </div>
+  <div id="fr-v16" style="display:none;position:relative;padding-bottom:56.25%">
+    <iframe style="position:absolute;inset:0;width:100%;height:100%;border:none" allowfullscreen allow="autoplay;encrypted-media"></iframe>
+  </div>
+</div>
+    <div class="tags"><span class="tag">Rotadores externos</span><span class="tag">Hombro posterior</span><span class="tag">Bíceps</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Face pull: ata la banda amarilla a la barra a la altura de la cara. Da un paso atrás. Jala hacia tu cara con codos altos en Y. Vuelve lento. 3 × 15.</li><li><span class="sn">2</span>Curl: pisa la banda con un pie. Brazos pegados al cuerpo. Sube las manos hacia los hombros. Baja controlado. 3 × 15.</li></ul>
+    <div class="tip"><strong>💡 </strong>No saltarse el face pull: hacer muchas dominadas sin trabajar los rotadores externos termina en lesión de hombro. 3 series, siempre.</div>
+  </div>
+</div><div class="gh"><div class="glabel">Día 4 · Sábado — Full body + Test</div><div class="gline"></div></div>
+<div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#EDFAF3">⭐</div><div><div class="ename">Wide pull-up — Test semanal</div><div class="etag">Tu marca de la semana · Primera serie al Tracker</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    
+    <div class="tags"></div>
+    <ul class="steps"><li><span class="sn">1</span>La primera serie es tu número oficial — cuando estás más fresco. Registra ese número en el Tracker.</li><li><span class="sn">2</span>Misma técnica del Día 1: agarre wide, palmas afuera, hombros abajo.</li><li><span class="sn">3</span>Ve al máximo absoluto limpio en la primera serie. Ese es tu número semanal.</li><li><span class="sn">4</span>Las series 2 y 3 también al máximo pero sin presión de marca.</li><li><span class="sn">5</span>Al terminar el entrenamiento, abre el Tracker y registra.</li></ul>
+    <div class="tip"><strong>💡 </strong>Qué registrar: la primera serie del Día 4, cuando estás más fresco. No el promedio, no la última serie. Siempre la primera.</div>
+  </div>
+</div><div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#ECFDF5">⚡</div><div><div class="ename">Burpee</div><div class="etag">Full body + quema de grasa · Tu arma principal</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v18">
+  <img class="vthumb" src="https://img.youtube.com/vi/auBLPXO8Fww/hqdefault.jpg" alt="">
+  <div class="vover" onclick="playV('v18','auBLPXO8Fww')"><div class="pbtn"><div class="ptri"></div></div></div>
+  <div class="vhint">Toca para reproducir</div>
+  <div class="vframe"><iframe allowfullscreen allow="autoplay;encrypted-media"></iframe></div>
+</div>
+    <div class="tags"><span class="tag">Cuerpo completo</span><span class="tag">Cardio</span></div>
+    <ul class="steps"><li><span class="sn">1</span>De pie. Baja las manos al piso al lado de los pies.</li><li><span class="sn">2</span>Salta los pies hacia atrás — posición de push-up.</li><li><span class="sn">3</span>Baja el pecho al piso (push-up completo).</li><li><span class="sn">4</span>Sube, salta los pies hacia adelante y salta con los brazos arriba. Eso es una rep.</li></ul>
+    <div class="tip"><strong>💡 </strong>Ritmo: no tiene que ser rápido — tiene que ser continuo. Sin pausas entre reps.</div>
+  </div>
+</div><div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#ECFDF5">🦘</div><div><div class="ename">Jump squat</div><div class="etag">Piernas + explosividad + quema grasa</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v19">
+  <img class="vthumb" src="https://img.youtube.com/vi/A-cFYWvaHr0/hqdefault.jpg" alt="">
+  <div class="vover" onclick="playV('v19','A-cFYWvaHr0')"><div class="pbtn"><div class="ptri"></div></div></div>
+  <div class="vhint">Toca para reproducir</div>
+  <div class="vframe"><iframe allowfullscreen allow="autoplay;encrypted-media"></iframe></div>
+</div>
+    <div class="tags"><span class="tag">Cuádriceps</span><span class="tag">Glúteos</span><span class="tag">Pantorrillas</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Pies al ancho de los hombros. Baja en squat hasta muslos paralelos al piso.</li><li><span class="sn">2</span>Explota hacia arriba saltando lo más alto que puedas.</li><li><span class="sn">3</span>Aterriza suave con rodillas ligeramente dobladas. Baja directo al siguiente squat.</li></ul>
+    <div class="tip"><strong>💡 </strong>Si las rodillas duelen: asegúrate que no vayan hacia adentro al bajar ni al aterrizar. Si persiste, haz squat normal sin salto.</div>
+  </div>
+</div><div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#ECFDF5">🔺</div><div><div class="ename">V-up</div><div class="etag">Core · Abdomen completo</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v20">
+  <img class="vthumb" src="https://img.youtube.com/vi/7UVgs18Y1P4/hqdefault.jpg" alt="">
+  <div class="vover" onclick="playV('v20','7UVgs18Y1P4')"><div class="pbtn"><div class="ptri"></div></div></div>
+  <div class="vhint">Toca para reproducir</div>
+  <div class="vframe"><iframe allowfullscreen allow="autoplay;encrypted-media"></iframe></div>
+</div>
+    <div class="tags"><span class="tag">Abdomen completo</span><span class="tag">Cadera</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Acuéstate boca arriba con brazos y piernas estirados.</li><li><span class="sn">2</span>Al mismo tiempo: sube los brazos y las piernas formando una V. Intenta tocar los pies.</li><li><span class="sn">3</span>Baja controlado sin dejar caer ni brazos ni piernas.</li></ul>
+    <div class="tip"><strong>💡 </strong>Si es muy difícil: haz sit-ups y leg raises por separado hasta tener la fuerza de core para el V-up completo.</div>
+  </div>
+</div><div class="ec">
+  <div class="et" onclick="toggleE(this)">
+    <div class="el"><div class="eico" style="background:#ECFDF5">◀</div><div><div class="ename">Plank lateral</div><div class="etag">Core lateral · Oblicuos y estabilidad</div></div></div>
+    <div class="echev">▼</div>
+  </div>
+  <div class="eb">
+    <div class="vw" id="v21">
+  <img class="vthumb" src="https://img.youtube.com/vi/_rdfjFSFKMY/hqdefault.jpg" alt="">
+  <div class="vover" onclick="playV('v21','_rdfjFSFKMY')"><div class="pbtn"><div class="ptri"></div></div></div>
+  <div class="vhint">Toca para reproducir</div>
+  <div class="vframe"><iframe allowfullscreen allow="autoplay;encrypted-media"></iframe></div>
+</div>
+    <div class="tags"><span class="tag">Oblicuos</span><span class="tag">Core lateral</span></div>
+    <ul class="steps"><li><span class="sn">1</span>Acuéstate de lado. Apoya el antebrazo en el piso, codo debajo del hombro.</li><li><span class="sn">2</span>Sube la cadera del piso — el cuerpo forma una línea recta de cabeza a pies.</li><li><span class="sn">3</span>Aprieta abdomen y glúteo de arriba. Aguanta 20 segundos. Descansa y haz el otro lado.</li></ul>
+    <div class="tip"><strong>💡 </strong>Si la cadera cae: descansa unos segundos y sube de nuevo. En partes bien hechas es mejor que el tiempo completo mal.</div>
+  </div>
+</div></div><!-- end ejercicios -->
+
+<!-- ===================== BANDAS ===================== -->
+<div id="bandas" class="pg">
+  <div class="ibox">
+    <div class="iico">🎯</div>
+    <div>
+      <div class="ititle">Cómo usar esta pestaña</div>
+      <div class="ibody">Aquí está el plan exacto de cuándo usar cada banda. Tu peso de 208 lb determina qué tan difícil es cada una. Conforme progresas, vas bajando a bandas más delgadas hasta llegar sin banda. Consulta esto si tienes dudas sobre cuál usar hoy o cuándo es hora de cambiar.</div>
+    </div>
+  </div>
+  <div class="h1">Tus 5 bandas de resistencia</div>
+  <div class="sub">Con 208 lb — peso efectivo en pull-ups con cada banda</div>
+  <div class="co or"><div class="ci">🎯</div><div class="ct"><strong>Tu banda ahora:</strong> Roja (30-60 lb) en el Día 3. Te deja con ~148-178 lb efectivos — suficiente para 8-10 reps limpias para acumular volumen sin agotarte.</div></div>
+  <div class="bwrap">
+    <div class="bi"><div class="bdot" style="background:#7B2FBE"></div><div><div class="bname">Morada — 100 a 125 lb de asistencia</div><div class="bdesc">Peso efectivo: ~83-108 lb. Solo cuando llegas muy cansado o con dolor muscular. En días normales quita demasiado trabajo.</div><span class="btag bdone">Solo recuperación</span></div></div>
+    <div class="bi"><div class="bdot" style="background:#1D4ED8"></div><div><div class="bname">Azul — 60 a 100 lb de asistencia</div><div class="bdesc">Peso efectivo: ~108-148 lb. Ya te queda fácil con 4 reps sin banda. Guárdala para recuperación activa o si la roja te deja con menos de 6 reps.</div><span class="btag bdone">Ya superada</span></div></div>
+    <div class="bi hl"><div class="bdot" style="background:#C2410C"></div><div><div class="bname">Roja — 30 a 60 lb de asistencia</div><div class="bdesc">Peso efectivo: ~148-178 lb. Tu banda en el Día 3 ahora. Permite 8-10 reps limpias para acumular volumen de espalda.</div><span class="btag bnow">Tu banda ahora — Fase 1</span></div></div>
+    <div class="bi"><div class="bdot" style="background:#D97706"></div><div><div class="bname">Naranja — 15 a 30 lb de asistencia</div><div class="bdesc">Peso efectivo: ~178-193 lb. Entra en Fase 2 (semana 5). Cuando llegues a 8+ reps sin banda en el Día 4, cambias a esta.</div><span class="btag bfut">Fase 2 · Semanas 5-7</span></div></div>
+    <div class="bi"><div class="bdot" style="background:#CA8A04"></div><div><div class="bname">Amarilla — 5 a 10 lb de asistencia</div><div class="bdesc">Face pull, curl de bíceps, rotación externa de hombro. Calentamiento antes de cualquier día de tirón. Úsala siempre — nunca saltarla.</div><span class="btag balways">Siempre · Calentamiento</span></div></div>
+  </div>
+  <div class="card">
+    <div class="ctitle">Cómo ponerte la banda en la barra</div>
+    <ul class="steps">
+      <li><span class="sn">1</span>Pasa un extremo de la banda por el otro y jala hasta que quede un nudo firme en el centro de la barra.</li>
+      <li><span class="sn">2</span>Agarra la barra con el agarre del día (wide, neutral, etc.).</li>
+      <li><span class="sn">3</span>Mete una rodilla dentro del lazo inferior. La otra pierna queda suelta o cruzada sobre la primera.</li>
+      <li><span class="sn">4</span>Haz el pull-up exactamente igual que sin banda. La banda ayuda pero no cambia el movimiento.</li>
+      <li><span class="sn">5</span>Controla la bajada igual — no te dejes caer aunque la banda asista.</li>
+    </ul>
+  </div>
+  <div class="co am"><div class="ci">💡</div><div class="ct"><strong>Regla de cambio:</strong> si en el Día 3 haces todas las series con más de 10 reps fácilmente durante dos semanas seguidas, ya estás listo para bajar al siguiente nivel de banda.</div></div>
+</div>
+
+<!-- ===================== PROGRESIÓN ===================== -->
+
+<div id="progresion" class="pg">
+  <div class="ibox">
+    <div class="iico">📈</div>
+    <div>
+      <div class="ititle">Tu plan de 10 semanas</div>
+      <div class="ibody">Aquí ves en qué fase estás, tus metas, la gráfica de progreso y tus rachas. Se actualiza automáticamente con tus datos del Tracker.</div>
+    </div>
+  </div>
+  <div class="h1">Progresión</div>
+  <p class="sub">Punto de partida: 4 wide pull-ups · 208 lb</p>
+
+  <!-- Streak + week indicator -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px">
+    <div class="streak-display" style="margin-bottom:0">
+      <div class="streak-flame">🔥</div>
+      <div>
+        <div class="streak-num" id="prog-streak">0</div>
+        <div class="streak-label">semanas seguidas</div>
+      </div>
+    </div>
+    <div class="card" style="margin-bottom:0;text-align:center">
+      <div style="font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px">Semana actual</div>
+      <div style="font-size:32px;font-weight:700;font-family:'JetBrains Mono',monospace;color:var(--blue)" id="prog-week">1</div>
+      <div style="font-size:12px;color:var(--ink2)" id="prog-phase-label">Fase 1 — Volumen base</div>
+    </div>
+  </div>
+
+  <!-- Progress bars -->
+  <div class="card">
+    <div class="card-title">Wide pull-ups — progresión esperada</div>
+    <div class="prog-item"><div class="prog-row"><span>Hace 2 semanas</span><span>1-2 reps</span></div><div class="prog-track"><div class="prog-bar pdone" style="width:8%"></div></div></div>
+    <div class="prog-item"><div class="prog-row"><span>Semana 1 ✓</span><span>4 reps</span></div><div class="prog-track"><div class="prog-bar pdone" style="width:22%"></div></div></div>
+    <div class="prog-item"><div class="prog-row"><span>Semana 4</span><span id="prog-s4-label">Meta: 7 reps</span></div><div class="prog-track"><div class="prog-bar ptodo" style="width:42%"></div></div></div>
+    <div class="prog-item"><div class="prog-row"><span>Semana 7</span><span>Meta: 11 reps</span></div><div class="prog-track"><div class="prog-bar ptodo" style="width:68%"></div></div></div>
+    <div class="prog-item" style="margin-bottom:0"><div class="prog-row"><span>Semana 10</span><span>Meta: 14+ reps</span></div><div class="prog-track"><div class="prog-bar ptodo" style="width:100%"></div></div></div>
+  </div>
+
+  <!-- Chart: pull-ups + weight -->
+  <div class="chart-wrap">
+    <div class="chart-title">
+      <span>Progreso visual</span>
+      <div style="display:flex;gap:6px">
+        <button type="button" class="btn btn-ghost btn-sm" onclick="setChartView('pullups')" id="chart-btn-pu">Pull-ups</button>
+        <button type="button" class="btn btn-ghost btn-sm" onclick="setChartView('peso')" id="chart-btn-pe">Peso</button>
+        <button type="button" class="btn btn-ghost btn-sm" onclick="setChartView('both')" id="chart-btn-both">Ambos</button>
+      </div>
+    </div>
+    <canvas class="chart-canvas" id="progressChart"></canvas>
+    <div class="chart-legend">
+      <div class="chart-leg-item"><div class="chart-leg-dot" style="background:#2563EB"></div>Wide pull-ups</div>
+      <div class="chart-leg-item"><div class="chart-leg-dot" style="background:#F97316"></div>Peso (lb)</div>
+    </div>
+  </div>
+
+  <!-- Before/after comparator -->
+  <div class="card" id="comparador-card">
+    <div class="card-title">📊 Comparador inicio vs ahora</div>
+    <div id="comparador-content">
+      <div class="co bl"><div class="ci">ℹ️</div><div class="ct">Registra al menos 2 semanas en el Tracker para ver el comparador.</div></div>
+    </div>
+  </div>
+
+  <div id="predictor-container" style="margin-bottom:14px"></div>
+  <!-- Phase cards -->
+  <div class="pgrid">
+    <div class="pcard" id="phase-card-1"><div class="ppill" id="phase-pill-1" style="display:none">Estás aquí</div><div class="pey">Fase 1 · Sem 1-4</div><div class="pname">Volumen base</div><ul class="pul"><li>Al máximo días 1 y 4</li><li>Banda roja día 3</li><li>90s entre series</li><li>Negativas 3-4 seg</li><li>Meta sem 4: 7 reps</li></ul></div>
+    <div class="pcard" id="phase-card-2"><div class="ppill" id="phase-pill-2" style="display:none">Estás aquí</div><div class="pey">Fase 2 · Sem 5-7</div><div class="pname">Densidad</div><ul class="pul"><li>Banda naranja día 3</li><li>75s entre series</li><li>Negativas 5 seg</li><li>HIIT más intenso</li><li>Meta sem 7: 11 reps</li></ul></div>
+    <div class="pcard" id="phase-card-3"><div class="ppill" id="phase-pill-3" style="display:none">Estás aquí</div><div class="pey">Fase 3 · Sem 8-10</div><div class="pname">Intensidad</div><ul class="pul"><li>Sin banda o naranja</li><li>60s entre series</li><li>Negativas 6 seg</li><li>Archer pull-up</li><li>Meta sem 10: 14+ reps</li></ul></div>
+  </div>
+
+  <div class="co bl"><div class="ci">📌</div><div class="ct"><strong>Regla de avance:</strong> 2+ reps extra de la meta dos sábados seguidos → sube de fase. Menos del 70% dos sábados → repite esa semana.</div></div>
+
+  <div class="next-block">
+    <div class="next-title">¿Qué pasa después de la semana 10?</div>
+    <ul class="next-ul">
+      <li><strong>Semana 11+:</strong> programa intermedio con periodización seria</li>
+      <li><strong>Ejercicios nuevos:</strong> archer pull-up, typewriter, L-sit, muscle-up</li>
+      <li><strong>Cuándo pedirlo:</strong> en semana 9 avísame</li>
+    </ul>
+  </div>
+</div>
+
+<div id="peso" class="pg">
+  <div class="ibox">
+    <div class="iico">⚖️</div>
+    <div>
+      <div class="ititle">Tracker de peso diario</div>
+      <div class="ibody">Registra tu peso cada mañana en ayunas para ver tendencias reales. Calcula el promedio semanal y mensual automáticamente. Junto con las pull-ups, es la métrica más importante.</div>
+    </div>
+  </div>
+  <div class="h1">Tu peso</div>
+  <p class="sub" id="peso-fecha-hoy">Hoy: —</p>
+
+  <!-- Quick entry -->
+  <div class="weight-day-input">
+    <div>
+      <div style="font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px">Peso de hoy (lb)</div>
+      <div style="display:flex;align-items:baseline;gap:6px">
+        <input type="number" class="weight-big-input" id="peso-input" aria-label="Peso en libras" placeholder="208" step="0.1" min="100" max="400" onkeydown="if(event.key==='Enter')savePeso()">
+        <span class="weight-unit">lb</span>
+      </div>
+    </div>
+    <button type="button" class="btn btn-blue btn-lg" onclick="savePeso()" style="margin-left:auto">Guardar ✓</button>
+  </div>
+
+  <!-- Stats -->
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:14px">
+    <div class="metric"><div class="mlbl">Hoy</div><div class="mval" id="peso-hoy-val">—</div></div>
+    <div class="metric"><div class="mlbl">Inicio</div><div class="mval" id="peso-inicio-val">208</div></div>
+    <div class="metric"><div class="mlbl">Cambio</div><div class="mval" id="peso-cambio-val">—</div></div>
+  </div>
+
+  <!-- Weekly and monthly averages -->
+  <div class="weight-avgs">
+    <div class="avg-card">
+      <div class="avg-label">📅 Promedio semanal</div>
+      <div class="avg-val" id="peso-avg-sem">—</div>
+      <div class="avg-sub" id="peso-avg-sem-label">Esta semana</div>
+    </div>
+    <div class="avg-card">
+      <div class="avg-label">🗓️ Promedio mensual</div>
+      <div class="avg-val" id="peso-avg-mes">—</div>
+      <div class="avg-sub" id="peso-avg-mes-label">Este mes</div>
+    </div>
+  </div>
+
+  <!-- Weight chart -->
+  <div class="chart-wrap">
+    <div class="chart-title">Tendencia de peso</div>
+    <canvas class="chart-canvas" id="pesoChart"></canvas>
+  </div>
+
+  <!-- Log -->
+  <div class="section-title">Historial</div>
+  <div class="lwrap">
+    <div id="peso-log-list">
+      <div style="padding:20px;text-align:center;color:var(--ink3);font-size:13px">Sin registros aún. ¡Pésate mañana por la mañana!</div>
+    </div>
+  </div>
+</div>
+
+<div id="tracker" class="pg">
+  <div class="ibox">
+    <div class="iico">📊</div>
+    <div>
+      <div class="ititle">Cómo usar esta pestaña</div>
+      <div class="ibody">Registra tu test de wide pull-ups de cada sábado (primera serie). El historial de sesiones se guarda automáticamente desde la pestaña <strong>🏋️ Hoy</strong>.</div>
+    </div>
+  </div>
+  <div class="h1">Tu progreso semanal</div>
+  <p class="sub">Semana 1 ya registrada · Agrega tu marca cada sábado</p>
+
+
+  <div id="week-summary-container" style="margin-bottom:14px"></div>
+  <!-- Metrics -->
+  <div class="metrics">
+    <div class="metric"><div class="mlbl">Inicio</div><div class="mval">1-2</div></div>
+    <div class="metric"><div class="mlbl">Mejor marca</div><div class="mval bl" id="best-n">4</div></div>
+    <div class="metric"><div class="mlbl">Semanas</div><div class="mval gr" id="weeks-n">1</div></div>
+    <div class="metric"><div class="mlbl">Tiempo total</div><div class="mval" id="total-time-n" style="font-size:16px">—</div></div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:9px;margin-bottom:14px">
+    <div class="metric"><div class="mlbl">⏱ Total entrenado</div><div class="mval am" id="total-time-val">0h</div></div>
+    <div class="metric"><div class="mlbl">💪 Sesiones</div><div class="mval pu" id="total-sessions-val">0</div></div>
+  </div>
+
+  <!-- Pull-up log entry -->
+  <div class="section-title">Registrar test semanal</div>
+  <div class="form-row">
+    <select id="inp-sem" aria-label="Semana" class="finp" style="min-width:100px">
+      <option value="">Semana...</option>
+      <option>Sem 2</option><option>Sem 3</option><option>Sem 4</option>
+      <option>Sem 5</option><option>Sem 6</option><option>Sem 7</option>
+      <option>Sem 8</option><option>Sem 9</option><option>Sem 10</option>
+    </select>
+    <input type="number" id="inp-pu" aria-label="Número de pull-ups" class="finp" placeholder="Pull-ups" min="1" max="50" style="width:100px">
+    <select id="inp-banda" aria-label="Banda utilizada" class="finp" style="min-width:130px">
+      <option value="">Banda día 3...</option>
+      <option value="roja">🟠 Roja</option>
+      <option value="naranja">🟡 Naranja</option>
+      <option value="azul">🔵 Azul</option>
+      <option value="sin">Sin banda</option>
+    </select>
+    <button type="button" class="btn btn-blue" aria-label="Guardar registro" onclick="saveLog()">Guardar</button>
+  </div>
+
+  <div class="lwrap">
+    <table class="ltbl">
+      <thead><tr><th>Semana</th><th>Pull-ups</th><th>Cambio</th><th>Banda</th></tr></thead>
+      <tbody id="log-body"></tbody>
+    </table>
+  </div>
+
+  <div class="section-title">Comparación semana anterior</div>
+  <div class="card" style="margin-bottom:14px"><div id="week-comparison"></div></div>
+
+  <!-- Session history -->
+  <div class="section-title">Historial de sesiones</div>
+  <div id="session-history-list">
+    <div class="co bl"><div class="ci">ℹ️</div><div class="ct">Las sesiones completadas desde la pestaña Hoy aparecerán aquí.</div></div>
+  </div>
+
+  <!-- Personal records -->
+  <div class="section-title" style="margin-top:16px">Récords personales 🏆</div>
+  <div id="records-list" class="lwrap">
+    <div style="padding:16px;font-size:13px;color:var(--ink3);text-align:center">Completa entrenamientos para establecer récords.</div>
+  </div>
+
+  <!-- Checklist -->
+  <div class="cktitle" style="margin-top:16px">Checklist semanal</div>
+  <div class="ckwrap">
+    <div class="cki"><input type="checkbox" id="ck1" onchange="saveChecklistState()"><label for="ck1">Día 1 completado — tirón vertical (lunes)</label></div>
+    <div class="cki"><input type="checkbox" id="ck2" onchange="saveChecklistState()"><label for="ck2">Día 2 completado — empuje + core (martes)</label></div>
+    <div class="cki"><input type="checkbox" id="ck3" onchange="saveChecklistState()"><label for="ck3">Día 3 completado — tirón + banda (jueves)</label></div>
+    <div class="cki"><input type="checkbox" id="ck4" onchange="saveChecklistState()"><label for="ck4">Día 4 completado — full body + test (sábado)</label></div>
+    <div class="cki"><input type="checkbox" id="ck5" onchange="saveChecklistState()"><label for="ck5">Test de pull-ups registrado en el tracker</label></div>
+    <div class="cki"><input type="checkbox" id="ck6" onchange="saveChecklistState()"><label for="ck6">Caminata en días de descanso (Mié, Vie, Dom)</label></div>
+    <div class="cki"><input type="checkbox" id="ck7" onchange="saveChecklistState()"><label for="ck7">Hice el calentamiento antes de entrenar</label></div>
+  </div>
+  <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">
+    <button type="button" class="btn btn-ghost btn-sm" onclick="resetCk()">Resetear checklist</button>
+    <button type="button" class="btn btn-ghost btn-sm" aria-label="Exportar datos" onclick="exportData()">📤 Exportar datos</button>
+    <button type="button" class="btn btn-ghost btn-sm" aria-label="Importar datos" onclick="importData()">📥 Importar datos</button>
+  </div>
+  <input type="file" id="import-file" accept=".json" style="display:none" onchange="handleImport(event)">
+</div>
+
+<div id="logros" class="pg">
+  <div class="h1">🏆 Logros</div>
+  <p class="sub">Desbloquea insignias con tu progreso</p>
+
+  <div class="metrics" style="margin-bottom:16px">
+    <div class="metric"><div class="mlbl">Desbloqueados</div><div class="mval am" id="badges-unlocked">0</div></div>
+    <div class="metric"><div class="mlbl">Total</div><div class="mval" id="badges-total">0</div></div>
+    <div class="metric"><div class="mlbl">%</div><div class="mval bl" id="badges-pct">0%</div></div>
+  </div>
+
+  <div class="badges-grid" id="badges-grid">
+    <!-- Generated by JS -->
+  </div>
+</div>
+
+<div id="ajustes" class="pg">
+  <div class="h1">⚙️ Ajustes</div>
+  <p class="sub">Personaliza tu experiencia</p>
+
+  <div class="card">
+    <div class="card-title">Apariencia</div>
+    <div class="setting-row">
+      <div><div class="setting-label">Modo oscuro</div><div class="setting-sub">Cambia entre tema claro y oscuro</div></div>
+      <label class="toggle"><input type="checkbox" id="setting-dark" onchange="toggleDarkMode(this.checked)"><span class="toggle-slider"></span></label>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Audio y vibración</div>
+    <div class="setting-row">
+      <div><div class="setting-label">🔔 Sonido al terminar descanso</div><div class="setting-sub">Beeps cuando el cronómetro llega a cero</div></div>
+      <label class="toggle"><input type="checkbox" id="setting-sound" checked onchange="saveSetting('sound',this.checked)"><span class="toggle-slider"></span></label>
+    </div>
+    <div class="setting-row">
+      <div><div class="setting-label">📳 Vibración</div><div class="setting-sub">Vibra el teléfono al terminar el descanso</div></div>
+      <label class="toggle"><input type="checkbox" id="setting-vibration" checked onchange="saveSetting('vibration',this.checked)"><span class="toggle-slider"></span></label>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Entrenamiento</div>
+    <div class="setting-row">
+      <div><div class="setting-label">📱 Pantalla encendida</div><div class="setting-sub">Evita que se apague el teléfono mientras entrenas</div></div>
+      <label class="toggle"><input type="checkbox" id="setting-wakelock" checked onchange="saveSetting('wakelock',this.checked)"><span class="toggle-slider"></span></label>
+    </div>
+    <div class="setting-row">
+      <div>
+        <div class="setting-label">⏱ Delay de preparación</div>
+        <div class="setting-sub">Segundos extra antes de empezar el ejercicio después del descanso</div>
+      </div>
+      <select class="finp" id="setting-prep-delay" onchange="saveSetting('prepDelay',this.value)" style="width:70px">
+        <option value="3">3s</option>
+        <option value="5" selected>5s</option>
+        <option value="8">8s</option>
+        <option value="10">10s</option>
+        <option value="0">Sin delay</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Notificaciones</div>
+    <div class="setting-row">
+      <div><div class="setting-label">🔔 Recordatorios de entrenamiento</div><div class="setting-sub">Notificación los días que toca entrenar</div></div>
+      <button type="button" class="btn btn-ghost btn-sm" aria-label="Activar notificaciones" onclick="setupNotifications()" id="notif-btn">Activar</button>
+    </div>
+    <div id="notif-status" style="font-size:12px;color:var(--ink3);margin-top:8px;padding-top:8px;border-top:1px solid var(--border)"></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">🐙 GitHub Sync</div>
+    <p style="font-size:13px;color:var(--ink2);margin-bottom:12px">Guarda tu progreso automáticamente en tu repositorio de GitHub. Funciona desde cualquier dispositivo — sin importar ni exportar.</p>
+    <div class="sync-status" style="background:var(--s2);border:1px solid var(--border)" id="gh-status-bar">
+      <div class="sync-dot disconnected" id="gh-dot"></div>
+      <span id="gh-status-text" style="color:var(--ink2)">No configurado</span>
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">
+      <button type="button" class="btn btn-blue btn-sm" id="gh-setup-btn" aria-label="Configurar GitHub Sync" onclick="ghShowSetup()">⚙️ Configurar</button>
+      <button type="button" class="btn btn-ghost btn-sm" id="gh-save-btn" aria-label="Guardar en GitHub" onclick="ghSave()" style="display:none">⬆️ Guardar ahora</button>
+      <button type="button" class="btn btn-ghost btn-sm" id="gh-load-btn" aria-label="Cargar desde GitHub" onclick="ghLoad()" style="display:none">⬇️ Cargar desde GitHub</button>
+      <button type="button" class="btn btn-ghost btn-sm" id="gh-disconnect-btn" aria-label="Desconectar GitHub" onclick="ghDisconnect()" style="display:none">Desconectar</button>
+    </div>
+    <div style="font-size:12px;color:var(--ink3);margin-top:8px" id="gh-last-sync"></div>
+    <div id="gh-setup-panel" style="display:none" class="sync-setup">
+      <div style="font-size:14px;font-weight:600;margin-bottom:4px">Configuración (solo una vez)</div>
+      <div style="font-size:12px;color:var(--ink3);margin-bottom:10px">Necesitas un token de GitHub con acceso a tu repo.</div>
+      <ol class="sync-setup-steps">
+        <li><span class="sync-sn">1</span><div>Ve a <strong>github.com → Settings → Developer settings → Personal access tokens → Tokens (classic)</strong> → <strong>Generate new token (classic)</strong></div></li>
+        <li><span class="sync-sn">2</span><div>Ponle nombre (ej: "Barra Pro"), marca el scope <strong><code style="background:var(--s2);padding:1px 5px;border-radius:3px">repo</code></strong> → <strong>Generate token</strong>. <strong style="color:var(--red)">Cópialo de una — solo se muestra una vez.</strong></div></li>
+        <li><span class="sync-sn">3</span><div>Pega tu usuario, nombre del repo y el token abajo.</div></li>
+      </ol>
+      <label style="font-size:12px;font-weight:500;color:var(--ink2);display:block;margin-top:8px">Usuario de GitHub</label>
+      <input type="text" class="sync-input" id="gh-username-input" aria-label="Usuario de GitHub" placeholder="tu_usuario" autocomplete="off">
+      <label style="font-size:12px;font-weight:500;color:var(--ink2);display:block;margin-top:6px">Repositorio</label>
+      <input type="text" class="sync-input" id="gh-repo-input" aria-label="Nombre del repositorio" placeholder="barra-pro" value="barra-pro" autocomplete="off">
+      <label style="font-size:12px;font-weight:500;color:var(--ink2);display:block;margin-top:6px">Personal Access Token</label>
+      <input type="password" class="sync-input sync-input-mono" id="gh-token-input" aria-label="Token de acceso personal de GitHub" placeholder="ghp_xxxxxxxxxxxx" autocomplete="off">
+      <div style="display:flex;gap:8px;margin-top:10px">
+        <button type="button" class="btn btn-blue btn-sm" aria-label="Guardar configuración de GitHub" onclick="ghSaveConfig()">✓ Guardar</button>
+        <button type="button" class="btn btn-ghost btn-sm" onclick="document.getElementById('gh-setup-panel').style.display='none'">Cancelar</button>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-title">📅 Días de entrenamiento</div>
+    <p style="font-size:13px;color:var(--ink2);margin-bottom:12px">Personaliza qué días de la semana entrenas si el esquema Lun/Mar/Jue/Sáb no aplica para ti.</p>
+    <div id="custom-days-ui"></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">⌨️ Atajos de teclado</div>
+    <div style="font-size:12px;color:var(--ink3);margin-bottom:10px">Solo disponibles en PC/escritorio</div>
+    <div style="display:flex;flex-direction:column;gap:8px;font-size:13px;color:var(--ink2)">
+      <div style="display:flex;align-items:center;justify-content:space-between"><span>Cambiar pestaña</span><span><span class="kbd">1</span> — <span class="kbd">7</span></span></div>
+      <div style="display:flex;align-items:center;justify-content:space-between"><span>Play/pausa cronómetro</span><span class="kbd">Espacio</span></div>
+      <div style="display:flex;align-items:center;justify-content:space-between"><span>Modo oscuro/claro</span><span class="kbd">D</span></div>
+      <div style="display:flex;align-items:center;justify-content:space-between"><span>Cerrar menú / overlay</span><span class="kbd">Esc</span></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Datos locales</div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <button type="button" class="btn btn-ghost btn-sm" onclick="exportData()">📤 Exportar JSON</button>
+      <button type="button" class="btn btn-ghost btn-sm" onclick="importData()">📥 Importar JSON</button>
+      <button type="button" class="btn btn-danger btn-sm" aria-label="Borrar todos los datos" onclick="confirmReset()">🗑️ Borrar todo</button>
+    </div>
+    <div style="font-size:12px;color:var(--ink3);margin-top:8px">Los datos se guardan en este navegador. Exporta regularmente como respaldo.</div>
+  </div>
+
+</div>
+</main><!-- end main -->
+
+<!-- STICKY TIMER -->
+<div class="timer-bar" role="timer" aria-label="Cronómetro de descanso" id="timerBar" style="display:none">
+  <div class="timer-inner">
+    <div class="timer-label" id="timer-label-text">Descanso</div>
+    <div class="timer-presets">
+      <button type="button" class="tpreset" aria-label="Iniciar 45 segundos" onclick="startTimer(45)">45s</button>
+      <button type="button" class="tpreset" aria-label="Iniciar 90 segundos" onclick="startTimer(90)">90s</button>
+      <button type="button" class="tpreset" aria-label="Iniciar 2 minutos" onclick="startTimer(120)">2min</button>
+    </div>
+    <div class="timer-display" id="timerDisplay">0:00</div>
+    <div class="timer-prog-wrap">
+      <div class="timer-prog-fill" id="timerProgFill"></div>
+    </div>
+    <div class="timer-btns">
+      <button type="button" class="tbtn primary" id="timerPlayBtn" aria-label="Reproducir/Pausar cronómetro" onclick="toggleTimer()">▶</button>
+      <button type="button" class="tbtn" aria-label="Reiniciar cronómetro" onclick="resetTimer()">↺</button>
+    </div>
+  </div>
+</div>
+<script src="app.js"></script>
+
+<!-- Session Recovery Banner -->
+<div id="session-recovery-banner" style="display:none;position:fixed;top:52px;left:0;right:0;z-index:7000;background:var(--amber);padding:10px 16px;box-shadow:var(--shm)">
+  <div style="max-width:600px;margin:0 auto;display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+    <span style="font-size:20px">🔄</span>
+    <div style="flex:1;min-width:0">
+      <div style="font-size:13px;font-weight:700;color:#fff" id="recovery-session-name">Entrenamiento</div>
+      <div style="font-size:12px;color:rgba(255,255,255,.85)" id="recovery-progress">— series</div>
+    </div>
+    <div style="display:flex;gap:8px;flex-shrink:0">
+      <button type="button" onclick="resumeSession()" style="background:#fff;color:var(--amber);border:none;border-radius:var(--rs);padding:7px 14px;font-size:13px;font-weight:700;cursor:pointer;font-family:Inter,sans-serif">Continuar</button>
+      <button type="button" onclick="discardSessionDraft()" style="background:rgba(0,0,0,.15);color:#fff;border:none;border-radius:var(--rs);padding:7px 12px;font-size:13px;cursor:pointer;font-family:Inter,sans-serif">Descartar</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

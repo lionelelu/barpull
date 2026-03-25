@@ -2978,7 +2978,10 @@ async function authSignUp() {
     var result = await _sb.auth.signUp({
       email: email,
       password: pass,
-      options: { data: { display_name: displayName } }
+      options: {
+        data: { display_name: displayName },
+        emailRedirectTo: window.location.origin + window.location.pathname
+      }
     });
 
     if (result.error) {

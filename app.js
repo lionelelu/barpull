@@ -186,7 +186,7 @@ function saveSetting(key, val) {
 // ===================================================================
 // type: 'max'=reps to failure, 'reps'=fixed reps, 'time'=seconds, 'reps_side'=per side
 // restType: 'pull','push','core','between'
-var EX_DATA = {"Wide pull-up": {"steps": ["Agarra la barra más ancha que tus hombros. Las palmas miran hacia afuera — lejos de tu cara.", "Antes de subir, baja los hombros lejos de las orejas. Imagina meterte los omóplatos en los bolsillos traseros del pantalón.", "Jala los codos hacia abajo y hacia tus caderas. Sube hasta que el mentón pase la barra.", "Baja contando \"uno, dos\". No te dejes caer — controla el descenso siempre.", "Si el cuerpo balancea, aprieta glúteos y abdomen durante todo el movimiento."], "tip": "Error más común: los hombros suben hacia las orejas al subir. Cuando pasa, solo trabajan los trapecios, no la espalda. Mantén los hombros abajo en todo momento.", "vid": "eYHnGrFxpO4"}, "Neutral pull-up": {"steps": ["Agarra los mangos paralelos de tu barra — los que apuntan hacia ti. Las palmas se miran entre sí.", "Cuelga con los brazos completamente estirados.", "Sube jalando los codos hacia tus costillas. Piensa en \"llevar los codos al piso\".", "Sube hasta que el pecho quede a la altura de los mangos. Baja en 2 segundos."], "tip": "Por qué lo haces después del wide: es más amigable con los hombros y codos — perfecto cuando ya están cansados del wide pull-up.", "vid": "Ai4S1uzMP7A"}, "Chin-up supino": {"steps": ["Agarra la barra con las palmas mirando hacia tu cara, al ancho de los hombros.", "Cuelga con los brazos completamente estirados.", "Sube jalando los codos hacia abajo y atrás. Mentón sobre la barra.", "Baja en 2 segundos. Sin soltar ni balancear."], "tip": "Diferencia con el wide: solo cambian las palmas — activa más bíceps y es un poco más fácil. Perfecto para el final del bloque cuando ya estás cansado.", "vid": "brhRXlOhWMI"}, "Dead bug": {"steps": ["Acuéstate boca arriba. Pega la espalda baja al piso — ese contacto no se pierde en ningún momento del ejercicio.", "Sube los brazos apuntando al techo. Dobla las rodillas a 90° con los muslos verticales (como una mesa).", "Lentamente: extiende el brazo derecho hacia atrás y la pierna izquierda hacia adelante al mismo tiempo. Ambos quedan casi paralelos al piso — sin tocar.", "Vuelve al centro controlado. Ahora el otro lado: brazo izquierdo + pierna derecha. Eso es 1 rep por lado."], "tip": "si la espalda baja se despega del piso, el movimiento fue demasiado largo. Acorta el rango hasta que el core sea suficientemente fuerte para controlarlo. Calidad sobre cantidad siempre.", "vid": "g_BYB0R-4Ws"}, "Push-up en barra": {"steps": ["Pon la barra en el piso. Agárrala al ancho de los hombros. El cuerpo recto de cabeza a talones.", "Baja el pecho hasta casi tocar la barra. Codos a 45° — ni pegados ni completamente abiertos.", "Empuja hasta estirar los brazos. Glúteos y abdomen apretados durante toda la rep."], "tip": "Ventaja de la barra: el agarre neutro pone la muñeca en posición más natural que el piso, permite bajar más y trabajar mejor el pecho.", "vid": "IODxDxX7oi4"}, "Push-up diamante": {"steps": ["Posición de push-up. Junta las manos en el centro del pecho formando un diamante con los dedos.", "Baja el pecho hacia las manos. Los codos van hacia atrás, no hacia los lados.", "Empuja hacia arriba apretando los tríceps al final."], "tip": "Si no llegas al piso: empieza con las manos en la barra — un poco más alto, más fácil, mientras ganas fuerza en los tríceps.", "vid": "PPTj-MW2tcs"}, "Push-up arquero": {"steps": ["Push-up con las manos más anchas que normal. Extiende un brazo completamente hacia el lado.", "Baja el pecho hacia el lado del brazo doblado. El brazo extendido se estira más.", "Sube y alterna el lado. 6 reps por cada lado."], "tip": "Si es muy difícil: no extiendas el brazo completamente. Empieza a 45° y ve aumentando semana a semana.", "vid": "mzr0RYNDzzI"}, "Pike push-up": {"steps": ["Posición de push-up, luego sube la cadera formando una V invertida.", "Baja la cabeza entre las manos doblando los codos.", "Sube empujando hasta volver a la V. Cuanto más vertical el cuerpo, más difícil."], "tip": "Por qué importa: hombros fuertes = pull-ups más seguras a largo plazo.", "vid": "eG20L9cl81w"}, "Plank": {"steps": ["Apoya los antebrazos en el piso, codo debajo del hombro. Cuerpo completamente recto.", "Aprieta los glúteos y el abdomen. La cadera no sube ni baja.", "Mira al piso. Respira normal y aguanta el tiempo indicado."], "tip": "Si la cadera cae antes de los 30s: descansa unos segundos y sube de nuevo. Dos partes bien hechas son mejor que 30s mal.", "vid": "pSHjTRCQxIw"}, "Mountain climber": {"steps": ["Posición de push-up con los brazos estirados.", "Jala una rodilla al pecho rápido. Vuelve y jala la otra. 20 reps = 10 por lado.", "Las caderas no suben ni bajan durante todo el movimiento."], "tip": "Ritmo: empieza lento hasta que la posición sea sólida, luego acelera. Constante quema más que rápido y desordenado.", "vid": "nmwgirgXLYM"}, "Wide pull-up + banda roja": {"steps": ["Cuelga la banda roja de la barra: pasa un extremo por el otro y jala hasta que quede firme.", "Agarra la barra en agarre wide. Pon una rodilla dentro del lazo inferior de la banda.", "Haz el pull-up exactamente igual que sin banda. La banda ayuda pero no cambia el movimiento.", "Controla la bajada igual — no te dejes caer aunque la banda asista."], "tip": "Objetivo del día 3: 8-10 reps con la banda roja. Si bajas de 6 reps en alguna serie, usa la banda azul esa semana.", "vid": "RaJI3Y_dZBU"}, "Remo con banda": {"steps": ["Ancla la banda a la barra arriba del marco de la puerta — pásala por el centro y haz un nudo firme.", "Agarra los dos extremos de la banda con los brazos extendidos. Da un paso atrás y recuéstate hacia atrás unos 45°, como si fueras a hacer un inverted row pero de pie.", "Jala los codos hacia las caderas apretando los omóplatos. El pecho sube hacia la barra.", "Vuelve lento controlando la tensión. Eso es una rep.", "Cuanto más te inclinas hacia atrás, más difícil. Empieza a 45° y ve aumentando la inclinación."], "tip": "empieza con la roja o naranja. Si es muy fácil con 12 reps, combina dos bandas o inclínate más. El objetivo es que las últimas 3 reps de cada serie cuesten.", "vid": "xQNrFHEMkIc"}, "Negativas lentas": {"steps": ["Salta o usa una silla para llegar al punto más alto — mentón sobre la barra.", "Quita los pies y baja lo más lento que puedas. Cuenta en voz alta: uno… dos… tres… cuatro.", "Cuando llegues abajo, vuelve a saltar arriba. Meta: 4-6 segundos por bajada."], "tip": "Por qué funciona: bajar controlado trabaja el músculo más intensamente que subir. Es la forma más rápida de ganar fuerza en pull-ups.", "vid": "A5q4qiSc_Aw"}, "Face pull + curl con banda amarilla": {"steps": ["Face pull: ata la banda amarilla a la barra a la altura de la cara. Da un paso atrás. Jala hacia tu cara con codos altos en Y. Vuelve lento. 3 × 15.", "Curl: pisa la banda con un pie. Brazos pegados al cuerpo. Sube las manos hacia los hombros. Baja controlado. 3 × 15."], "tip": "No saltarse el face pull: hacer muchas dominadas sin trabajar los rotadores externos termina en lesión de hombro. 3 series, siempre.", "vid": "dFdJlDDreMI"}, "Wide pull-up — Test semanal": {"steps": ["La primera serie es tu número oficial — cuando estás más fresco. Registra ese número en el Tracker.", "Misma técnica del Día 1: agarre wide, palmas afuera, hombros abajo.", "Ve al máximo absoluto limpio en la primera serie. Ese es tu número semanal.", "Las series 2 y 3 también al máximo pero sin presión de marca.", "Al terminar el entrenamiento, abre el Tracker y registra."], "tip": "Qué registrar: la primera serie del Día 4, cuando estás más fresco. No el promedio, no la última serie. Siempre la primera.", "vid": "eYHnGrFxpO4"}, "Burpee": {"steps": ["De pie. Baja las manos al piso al lado de los pies.", "Salta los pies hacia atrás — posición de push-up.", "Baja el pecho al piso (push-up completo).", "Sube, salta los pies hacia adelante y salta con los brazos arriba. Eso es una rep."], "tip": "Ritmo: no tiene que ser rápido — tiene que ser continuo. Sin pausas entre reps.", "vid": "auBLPXO8Fww"}, "Jump squat": {"steps": ["Pies al ancho de los hombros. Baja en squat hasta muslos paralelos al piso.", "Explota hacia arriba saltando lo más alto que puedas.", "Aterriza suave con rodillas ligeramente dobladas. Baja directo al siguiente squat."], "tip": "Si las rodillas duelen: asegúrate que no vayan hacia adentro al bajar ni al aterrizar. Si persiste, haz squat normal sin salto.", "vid": "A-cFYWvaHr0"}, "V-up": {"steps": ["Acuéstate boca arriba con brazos y piernas estirados.", "Al mismo tiempo: sube los brazos y las piernas formando una V. Intenta tocar los pies.", "Baja controlado sin dejar caer ni brazos ni piernas."], "tip": "Si es muy difícil: haz sit-ups y leg raises por separado hasta tener la fuerza de core para el V-up completo.", "vid": "7UVgs18Y1P4"}, "Plank lateral": {"steps": ["Acuéstate de lado. Apoya el antebrazo en el piso, codo debajo del hombro.", "Sube la cadera del piso — el cuerpo forma una línea recta de cabeza a pies.", "Aprieta abdomen y glúteo de arriba. Aguanta 20 segundos. Descansa y haz el otro lado."], "tip": "Si la cadera cae: descansa unos segundos y sube de nuevo. En partes bien hechas es mejor que el tiempo completo mal.", "vid": "_rdfjFSFKMY"}, "Wide pull-up — TEST ⭐": {"steps": ["Agarra la barra más ancha que tus hombros. Las palmas miran hacia afuera — lejos de tu cara.", "Antes de subir, baja los hombros lejos de las orejas. Imagina meterte los omóplatos en los bolsillos traseros del pantalón.", "Jala los codos hacia abajo y hacia tus caderas. Sube hasta que el mentón pase la barra.", "Baja contando \"uno, dos\". No te dejes caer — controla el descenso siempre.", "Si el cuerpo balancea, aprieta glúteos y abdomen durante todo el movimiento."], "tip": "Error más común: los hombros suben hacia las orejas al subir. Cuando pasa, solo trabajan los trapecios, no la espalda. Mantén los hombros abajo en todo momento.", "vid": "eYHnGrFxpO4"}, "Narrow pull-up + banda roja": {"steps": ["Agarra los mangos paralelos de tu barra — los que apuntan hacia ti. Las palmas se miran entre sí.", "Cuelga con los brazos completamente estirados.", "Sube jalando los codos hacia tus costillas. Piensa en \"llevar los codos al piso\".", "Sube hasta que el pecho quede a la altura de los mangos. Baja en 2 segundos."], "tip": "Por qué lo haces después del wide: es más amigable con los hombros y codos — perfecto cuando ya están cansados del wide pull-up.", "vid": "Ai4S1uzMP7A"}, "Curl bíceps + banda amarilla": {"steps": ["Face pull: ata la banda amarilla a la barra a la altura de la cara. Da un paso atrás. Jala hacia tu cara con codos altos en Y. Vuelve lento. 3 × 15.", "Curl: pisa la banda con un pie. Brazos pegados al cuerpo. Sube las manos hacia los hombros. Baja controlado. 3 × 15."], "tip": "No saltarse el face pull: hacer muchas dominadas sin trabajar los rotadores externos termina en lesión de hombro. 3 series, siempre.", "vid": "dFdJlDDreMI"}, "Push-up explosivo": {"steps": ["Posición de push-up normal.", "Baja el pecho al piso.", "Empuja con fuerza explosiva hasta que las manos despeguen del suelo.", "Aterriza suave con codos ligeramente doblados."], "tip": "No pierdas la forma — cuerpo recto en todo momento.", "vid": "bCMk1CRmfqg"}, "Wall slide": {"steps": ["Párate con la espalda completamente pegada a la pared — cabeza, hombros, espalda baja y glúteos tocando.", "Sube los brazos en forma de W: codos a 90°, pegados a la pared, manos a altura de la cabeza.", "Desliza los brazos hacia arriba hasta formar una Y, manteniendo codos y muñecas pegados todo el tiempo.", "Vuelve lento a la W. Si algo se despega, reduce el rango."], "tip": "Activa el serrato anterior y el trapecio inferior — los músculos que protegen el hombro durante las dominadas.", "vid": "FPitGw7J6SI"}, "Reverse crunch": {"steps": ["Acuéstate boca arriba, manos a los lados o bajo los glúteos. Piernas dobladas a 90°, muslos verticales.", "Pega la espalda baja al piso y no la despegues.", "Usando el abdomen, sube las caderas del piso llevando las rodillas al pecho.", "Baja lento controlando. No dejes caer las piernas."], "tip": "Mueves las caderas hacia el pecho, no el pecho hacia las caderas. Es el core inferior que las dominadas necesitan.", "vid": "hyv14e2QDq0"}};
+var EX_DATA = {"Wide pull-up": {"steps": ["Agarra la barra más ancha que tus hombros. Las palmas miran hacia afuera — lejos de tu cara.", "Antes de subir, baja los hombros lejos de las orejas. Imagina meterte los omóplatos en los bolsillos traseros del pantalón.", "Jala los codos hacia abajo y hacia tus caderas. Sube hasta que el mentón pase la barra.", "Baja contando \"uno, dos\". No te dejes caer — controla el descenso siempre.", "Si el cuerpo balancea, aprieta glúteos y abdomen durante todo el movimiento."], "tip": "Error más común: los hombros suben hacia las orejas al subir. Cuando pasa, solo trabajan los trapecios, no la espalda. Mantén los hombros abajo en todo momento.", "vid": "eYHnGrFxpO4"}, "Neutral pull-up": {"steps": ["Agarra los mangos paralelos de tu barra — los que apuntan hacia ti. Las palmas se miran entre sí.", "Cuelga con los brazos completamente estirados.", "Sube jalando los codos hacia tus costillas. Piensa en \"llevar los codos al piso\".", "Sube hasta que el pecho quede a la altura de los mangos. Baja en 2 segundos."], "tip": "Por qué lo haces después del wide: es más amigable con los hombros y codos — perfecto cuando ya están cansados del wide pull-up.", "vid": "Ai4S1uzMP7A"}, "Chin-up supino": {"steps": ["Agarra la barra con las palmas mirando hacia tu cara, al ancho de los hombros.", "Cuelga con los brazos completamente estirados.", "Sube jalando los codos hacia abajo y atrás. Mentón sobre la barra.", "Baja en 2 segundos. Sin soltar ni balancear."], "tip": "Diferencia con el wide: solo cambian las palmas — activa más bíceps y es un poco más fácil. Perfecto para el final del bloque cuando ya estás cansado.", "vid": "brhRXlOhWMI"}, "Dead bug": {"steps": ["Acuéstate boca arriba. Pega la espalda baja al piso — ese contacto no se pierde en ningún momento del ejercicio.", "Sube los brazos apuntando al techo. Dobla las rodillas a 90° con los muslos verticales (como una mesa).", "Lentamente: extiende el brazo derecho hacia atrás y la pierna izquierda hacia adelante al mismo tiempo. Ambos quedan casi paralelos al piso — sin tocar.", "Vuelve al centro controlado. Ahora el otro lado: brazo izquierdo + pierna derecha. Eso es 1 rep por lado."], "tip": "si la espalda baja se despega del piso, el movimiento fue demasiado largo. Acorta el rango hasta que el core sea suficientemente fuerte para controlarlo. Calidad sobre cantidad siempre.", "vid": "g_BYB0R-4Ws"}, "Push-up en barra": {"steps": ["Pon la barra en el piso. Agárrala al ancho de los hombros. El cuerpo recto de cabeza a talones.", "Baja el pecho hasta casi tocar la barra. Codos a 45° — ni pegados ni completamente abiertos.", "Empuja hasta estirar los brazos. Glúteos y abdomen apretados durante toda la rep."], "tip": "Ventaja de la barra: el agarre neutro pone la muñeca en posición más natural que el piso, permite bajar más y trabajar mejor el pecho.", "vid": "IODxDxX7oi4"}, "Push-up diamante": {"steps": ["Posición de push-up. Junta las manos en el centro del pecho formando un diamante con los dedos.", "Baja el pecho hacia las manos. Los codos van hacia atrás, no hacia los lados.", "Empuja hacia arriba apretando los tríceps al final."], "tip": "Si no llegas al piso: empieza con las manos en la barra — un poco más alto, más fácil, mientras ganas fuerza en los tríceps.", "vid": "PPTj-MW2tcs"}, "Push-up arquero": {"steps": ["Push-up con las manos más anchas que normal. Extiende un brazo completamente hacia el lado.", "Baja el pecho hacia el lado del brazo doblado. El brazo extendido se estira más.", "Sube y alterna el lado. 6 reps por cada lado."], "tip": "Si es muy difícil: no extiendas el brazo completamente. Empieza a 45° y ve aumentando semana a semana.", "vid": "mzr0RYNDzzI"}, "Pike push-up": {"steps": ["Posición de push-up, luego sube la cadera formando una V invertida.", "Baja la cabeza entre las manos doblando los codos.", "Sube empujando hasta volver a la V. Cuanto más vertical el cuerpo, más difícil."], "tip": "Por qué importa: hombros fuertes = pull-ups más seguras a largo plazo.", "vid": "eG20L9cl81w"}, "Plank": {"steps": ["Apoya los antebrazos en el piso, codo debajo del hombro. Cuerpo completamente recto.", "Aprieta los glúteos y el abdomen. La cadera no sube ni baja.", "Mira al piso. Respira normal y aguanta el tiempo indicado."], "tip": "Si la cadera cae antes de los 30s: descansa unos segundos y sube de nuevo. Dos partes bien hechas son mejor que 30s mal.", "vid": "pSHjTRCQxIw"}, "Mountain climber": {"steps": ["Posición de push-up con los brazos estirados.", "Jala una rodilla al pecho rápido. Vuelve y jala la otra. 20 reps = 10 por lado.", "Las caderas no suben ni bajan durante todo el movimiento."], "tip": "Ritmo: empieza lento hasta que la posición sea sólida, luego acelera. Constante quema más que rápido y desordenado.", "vid": "nmwgirgXLYM"}, "Wide pull-up + banda roja": {"steps": ["Cuelga la banda roja de la barra: pasa un extremo por el otro y jala hasta que quede firme.", "Agarra la barra en agarre wide. Pon una rodilla dentro del lazo inferior de la banda.", "Haz el pull-up exactamente igual que sin banda. La banda ayuda pero no cambia el movimiento.", "Controla la bajada igual — no te dejes caer aunque la banda asista."], "tip": "Objetivo del día 3: 8-10 reps con la banda roja. Si bajas de 6 reps en alguna serie, usa la banda azul esa semana.", "vid": "RaJI3Y_dZBU"}, "Remo con banda": {"steps": ["Ancla la banda a la barra arriba del marco de la puerta — pásala por el centro y haz un nudo firme.", "Agarra los dos extremos de la banda con los brazos extendidos. Da un paso atrás y recuéstate hacia atrás unos 45°, como si fueras a hacer un inverted row pero de pie.", "Jala los codos hacia las caderas apretando los omóplatos. El pecho sube hacia la barra.", "Vuelve lento controlando la tensión. Eso es una rep.", "Cuanto más te inclinas hacia atrás, más difícil. Empieza a 45° y ve aumentando la inclinación."], "tip": "empieza con la roja o naranja. Si es muy fácil con 12 reps, combina dos bandas o inclínate más. El objetivo es que las últimas 3 reps de cada serie cuesten.", "vid": "xQNrFHEMkIc"}, "Negativas lentas": {"steps": ["Salta o usa una silla para llegar al punto más alto — mentón sobre la barra.", "Quita los pies y baja lo más lento que puedas. Cuenta en voz alta: uno… dos… tres… cuatro.", "Cuando llegues abajo, vuelve a saltar arriba. Meta: 4-6 segundos por bajada."], "tip": "Por qué funciona: bajar controlado trabaja el músculo más intensamente que subir. Es la forma más rápida de ganar fuerza en pull-ups.", "vid": "A5q4qiSc_Aw"}, "Face pull + curl con banda amarilla": {"steps": ["Face pull: ata la banda amarilla a la barra a la altura de la cara. Da un paso atrás. Jala hacia tu cara con codos altos en Y. Vuelve lento. 3 × 15.", "Curl: pisa la banda con un pie. Brazos pegados al cuerpo. Sube las manos hacia los hombros. Baja controlado. 3 × 15."], "tip": "No saltarse el face pull: hacer muchas dominadas sin trabajar los rotadores externos termina en lesión de hombro. 3 series, siempre.", "vid": "dFdJlDDreMI"}, "Wide pull-up — Test semanal": {"steps": ["La primera serie es tu número oficial — cuando estás más fresco. Registra ese número en el Tracker.", "Misma técnica del Día 1: agarre wide, palmas afuera, hombros abajo.", "Ve al máximo absoluto limpio en la primera serie. Ese es tu número semanal.", "Las series 2 y 3 también al máximo pero sin presión de marca.", "Al terminar el entrenamiento, abre el Tracker y registra."], "tip": "Qué registrar: la primera serie del Día 4, cuando estás más fresco. No el promedio, no la última serie. Siempre la primera.", "vid": "eYHnGrFxpO4"}, "Burpee": {"steps": ["De pie. Baja las manos al piso al lado de los pies.", "Salta los pies hacia atrás — posición de push-up.", "Baja el pecho al piso (push-up completo).", "Sube, salta los pies hacia adelante y salta con los brazos arriba. Eso es una rep."], "tip": "Ritmo: no tiene que ser rápido — tiene que ser continuo. Sin pausas entre reps.", "vid": "auBLPXO8Fww"}, "Jump squat": {"steps": ["Pies al ancho de los hombros. Baja en squat hasta muslos paralelos al piso.", "Explota hacia arriba saltando lo más alto que puedas.", "Aterriza suave con rodillas ligeramente dobladas. Baja directo al siguiente squat."], "tip": "Si las rodillas duelen: asegúrate que no vayan hacia adentro al bajar ni al aterrizar. Si persiste, haz squat normal sin salto.", "vid": "A-cFYWvaHr0"}, "V-up": {"steps": ["Acuéstate boca arriba con brazos y piernas estirados.", "Al mismo tiempo: sube los brazos y las piernas formando una V. Intenta tocar los pies.", "Baja controlado sin dejar caer ni brazos ni piernas."], "tip": "Si es muy difícil: haz sit-ups y leg raises por separado hasta tener la fuerza de core para el V-up completo.", "vid": "7UVgs18Y1P4"}, "Plank lateral": {"steps": ["Acuéstate de lado. Apoya el antebrazo en el piso, codo debajo del hombro.", "Sube la cadera del piso — el cuerpo forma una línea recta de cabeza a pies.", "Aprieta abdomen y glúteo de arriba. Aguanta 20 segundos. Descansa y haz el otro lado."], "tip": "Si la cadera cae: descansa unos segundos y sube de nuevo. En partes bien hechas es mejor que el tiempo completo mal.", "vid": "_rdfjFSFKMY"}, "Wide pull-up — TEST ⭐": {"steps": ["Agarra la barra más ancha que tus hombros. Las palmas miran hacia afuera — lejos de tu cara.", "Antes de subir, baja los hombros lejos de las orejas. Imagina meterte los omóplatos en los bolsillos traseros del pantalón.", "Jala los codos hacia abajo y hacia tus caderas. Sube hasta que el mentón pase la barra.", "Baja contando \"uno, dos\". No te dejes caer — controla el descenso siempre.", "Si el cuerpo balancea, aprieta glúteos y abdomen durante todo el movimiento."], "tip": "Error más común: los hombros suben hacia las orejas al subir. Cuando pasa, solo trabajan los trapecios, no la espalda. Mantén los hombros abajo en todo momento.", "vid": "eYHnGrFxpO4"}, "Narrow pull-up + banda roja": {"steps": ["Agarra los mangos paralelos de tu barra — los que apuntan hacia ti. Las palmas se miran entre sí.", "Cuelga con los brazos completamente estirados.", "Sube jalando los codos hacia tus costillas. Piensa en \"llevar los codos al piso\".", "Sube hasta que el pecho quede a la altura de los mangos. Baja en 2 segundos."], "tip": "Por qué lo haces después del wide: es más amigable con los hombros y codos — perfecto cuando ya están cansados del wide pull-up.", "vid": "Ai4S1uzMP7A"}, "Curl bíceps + banda amarilla": {"steps": ["Face pull: ata la banda amarilla a la barra a la altura de la cara. Da un paso atrás. Jala hacia tu cara con codos altos en Y. Vuelve lento. 3 × 15.", "Curl: pisa la banda con un pie. Brazos pegados al cuerpo. Sube las manos hacia los hombros. Baja controlado. 3 × 15."], "tip": "No saltarse el face pull: hacer muchas dominadas sin trabajar los rotadores externos termina en lesión de hombro. 3 series, siempre.", "vid": "dFdJlDDreMI"}, "Push-up normal": {"steps": ["Posicion de push-up: manos al ancho de los hombros, cuerpo recto de cabeza a talones.", "Baja el pecho hasta casi tocar el piso. Codos a 45 grados del cuerpo.", "Empuja hasta estirar los brazos completamente. Gluteos y abdomen apretados.", "Si no puedes hacerla completa, apoya las rodillas en el piso y haz la misma tecnica."], "tip": "Es el ejercicio base de empuje. Si puedes hacer mas de 20 con buena forma, sube a diamante. Si no llegas a 5, hazlas de rodillas.", "vid": "IODxDxX7oi4"}, "Push-up explosivo": {"steps": ["Posición de push-up normal.", "Baja el pecho al piso.", "Empuja con fuerza explosiva hasta que las manos despeguen del suelo.", "Aterriza suave con codos ligeramente doblados."], "tip": "No pierdas la forma — cuerpo recto en todo momento.", "vid": "bCMk1CRmfqg"}, "Wall slide": {"steps": ["Párate con la espalda completamente pegada a la pared — cabeza, hombros, espalda baja y glúteos tocando.", "Sube los brazos en forma de W: codos a 90°, pegados a la pared, manos a altura de la cabeza.", "Desliza los brazos hacia arriba hasta formar una Y, manteniendo codos y muñecas pegados todo el tiempo.", "Vuelve lento a la W. Si algo se despega, reduce el rango."], "tip": "Activa el serrato anterior y el trapecio inferior — los músculos que protegen el hombro durante las dominadas.", "vid": "FPitGw7J6SI"}, "Reverse crunch": {"steps": ["Acuéstate boca arriba, manos a los lados o bajo los glúteos. Piernas dobladas a 90°, muslos verticales.", "Pega la espalda baja al piso y no la despegues.", "Usando el abdomen, sube las caderas del piso llevando las rodillas al pecho.", "Baja lento controlando. No dejes caer las piernas."], "tip": "Mueves las caderas hacia el pecho, no el pecho hacia las caderas. Es el core inferior que las dominadas necesitan.", "vid": "hyv14e2QDq0"}};
 var WARMUP_DATA = [{"name": "Círculos de brazos", "reps": "15 hacia adelante + 15 hacia atrás", "steps": ["Párate derecho con los brazos extendidos a los lados, a la altura de los hombros.", "Haz círculos pequeños hacia adelante durante 15 repeticiones. Mantén los brazos rectos.", "Ahora invierte la dirección: 15 círculos hacia atrás.", "Termina con 5 círculos grandes en cada dirección para calentar bien el hombro."], "tip": "Empieza con círculos pequeños y ve agrandándolos. Si sientes tensión, es señal de que necesitabas este calentamiento.", "vid": "C5IJzXDGbRs"}, {"name": "Rotaciones de hombro y apertura de pecho", "reps": "10 repeticiones lentas", "steps": ["Párate frente a la puerta con los brazos en cruz, codos a 90°.", "Abre los brazos hacia atrás lentamente hasta sentir el pecho abrirse. Aguanta 2 segundos.", "Cierra volviendo al frente. Eso es 1 rep.", "Mantén los hombros bajos — no los encorves hacia las orejas."], "tip": "Este movimiento activa los músculos entre los omóplatos que protegen el hombro durante las dominadas.", "vid": "nPkMGsIB8eo"}, {"name": "Dead hang (colgado relajado)", "reps": "20 segundos", "steps": ["Cuélgate de la barra con agarre cómodo al ancho de los hombros.", "Relaja completamente los hombros — deja que la gravedad los jale hacia abajo.", "Respira profundo y siente cómo se estira toda la espalda y el espacio entre vértebras.", "Aguanta 20 segundos. Si llegas fácil, intenta 30."], "tip": "Es el momento de relajarse y preparar la mente. No hagas fuerza — deja que el peso del cuerpo haga el trabajo.", "vid": "dL1RBjN1MoQ"}, {"name": "Superman", "reps": "10 repeticiones lentas", "steps": ["Acuéstate boca abajo con los brazos estirados al frente (como Superman volando) y las piernas rectas.", "Lentamente levanta los brazos, pecho y piernas al mismo tiempo, despegando todo lo que puedas del piso.", "Aprieta los glúteos y la espalda en la parte más alta. Aguanta 2 segundos.", "Baja despacio controlando el movimiento. Eso es 1 rep."], "tip": "No es un movimiento explosivo — sube lento y siente cómo trabaja toda la cadena posterior. Si sientes dolor en la zona lumbar, reduce el rango de movimiento.", "vid": "z6PJMT2y8GI"}];
 
 var DAYS = {
@@ -206,10 +206,9 @@ var DAYS = {
     name: 'Empuje + core',
     warmup: false,
     exercises: [
-      { name:'Push-up en barra', sets:4, reps:'max', type:'max', rest:60, restType:'push', isometric:false },
-      { name:'Push-up diamante', sets:3, reps:10, type:'reps', rest:60, restType:'push', isometric:false },
-      { name:'Push-up arquero', sets:3, reps:'6/lado', type:'reps_side', rest:60, restType:'push', isometric:false },
-      { name:'Pike push-up', sets:3, reps:10, type:'reps', rest:60, restType:'push', isometric:false },
+      { name:'Push-up en barra', sets:3, reps:'max', type:'max', rest:60, restType:'push', isometric:false },
+      { name:'Push-up normal', sets:3, reps:'max', type:'max', rest:60, restType:'push', isometric:false },
+      { name:'Pike push-up', sets:3, reps:'max', type:'max', rest:60, restType:'push', isometric:false },
       { name:'Plank', sets:3, reps:30, type:'time', rest:45, restType:'core', isometric:true },
       { name:'Mountain climber', sets:3, reps:20, type:'reps', rest:45, restType:'core', isometric:false }
     ]
@@ -497,21 +496,36 @@ function getAdaptedDays() {
     adapted[3].exercises[3].sets = 4; // More negatives
     adapted[3].exercises[3].reps = 5;
     adapted[4].exercises[0].sets = 2; // Test: 2 instead of 3
+    // Day 2 beginner: fewer sets, no diamante/arquero
+    adapted[2].exercises[0].sets = 3; // Push-up en barra: 3
+    adapted[2].exercises[1].sets = 3; // Push-up normal: 3
+    adapted[2].exercises[2].sets = 2; // Pike: 2 sets
+    adapted[2].exercises[3].reps = 20; // Plank: 20s
   } else if (level <= 5) {
-    // Intermediate-beginner: standard
-    // Keep DAYS as-is (already designed for 4-rep starting point)
+    // Intermediate-beginner: standard base + diamante
+    // Day 2: add diamante, keep normal
+    adapted[2].exercises.splice(2, 0, { name:'Push-up diamante', sets:3, reps:'max', type:'max', rest:60, restType:'push', isometric:false });
   } else if (level <= 9) {
-    // Intermediate: more volume
+    // Intermediate: more volume, replace normal with diamante+arquero
     adapted[1].exercises[0].sets = 5; // Wide: 5 sets
     adapted[3].exercises[0].reps = '10-12'; // Band pull-ups: higher reps
     adapted[4].exercises[0].sets = 4; // Test: 4 sets
+    // Day 2: diamante + arquero, drop normal
+    adapted[2].exercises[1] = { name:'Push-up diamante', sets:3, reps:'max', type:'max', rest:60, restType:'push', isometric:false };
+    adapted[2].exercises.splice(2, 0, { name:'Push-up arquero', sets:3, reps:'6/lado', type:'reps_side', rest:60, restType:'push', isometric:false });
+    adapted[2].exercises[0].sets = 4; // Push-up en barra: 4 sets
   } else {
-    // Advanced: high volume, less band dependency
+    // Advanced: high volume
     adapted[1].exercises[0].sets = 5;
     adapted[1].exercises[1].sets = 4;
     adapted[1].exercises[2].sets = 4;
     adapted[3].exercises[0].reps = '12-15';
     adapted[4].exercises[0].sets = 4;
+    // Day 2: full difficulty
+    adapted[2].exercises[0].sets = 4;
+    adapted[2].exercises[1] = { name:'Push-up diamante', sets:4, reps:'max', type:'max', rest:60, restType:'push', isometric:false };
+    adapted[2].exercises.splice(2, 0, { name:'Push-up arquero', sets:3, reps:'6/lado', type:'reps_side', rest:60, restType:'push', isometric:false });
+    adapted[2].exercises[3].sets = 4; // Pike: 4 sets
   }
   
   return adapted;
@@ -669,6 +683,11 @@ function toggleTrainingEx(idx) {
 }
 
 function completeSerie(exIdx, serieIdx) {
+  // Guard: only allow completing series on the currently active exercise
+  if (exIdx !== HOY_STATE.exIdx) {
+    showToast('Completa el ejercicio actual primero', '⚠️', 2500);
+    return;
+  }
   var dayData = getAdaptedDays()[HOY_STATE.day];
   var ex = dayData.exercises[exIdx];
   var repsInput = document.getElementById('cur-reps-' + exIdx);
@@ -692,7 +711,7 @@ function completeSerie(exIdx, serieIdx) {
 
   // Mark badge as done
   var badge = document.getElementById('badge-' + exIdx + '-' + serieIdx);
-  if (badge) { badge.classList.remove('current'); badge.classList.add('done'); badge.textContent = '✓'; }
+  if (badge) { badge.classList.remove('current'); badge.classList.add('done'); badge.textContent = '✓'; badge.title = 'Click para editar'; badge.onclick = function(){ editCompletedSerie(exIdx, serieIdx); }; }
 
   HOY_STATE.seriesDone++;
   updateHoyProgress();
@@ -742,6 +761,35 @@ function completeSerie(exIdx, serieIdx) {
   }
   saveSessionDraft();
   saveDB();
+}
+
+function editCompletedSerie(exIdx, serieIdx) {
+  var exState = HOY_STATE.completedExercises[exIdx];
+  if (!exState || !exState.sets[serieIdx]) return;
+  var oldReps = exState.sets[serieIdx].reps;
+  showModal({
+    title: 'Editar serie ' + (serieIdx+1),
+    message: '<div style="margin-bottom:10px;font-size:13px;color:var(--ink2)">' + exState.name + '</div>' +
+      '<input type="number" id="edit-reps-input" value="' + (typeof oldReps === 'number' ? oldReps : '') + '" min="0" max="99" ' +
+      'style="width:100px;text-align:center;font-size:24px;font-weight:700;padding:10px;border:2px solid var(--border);border-radius:var(--rs);font-family:JetBrains Mono,monospace;color:var(--ink);background:var(--surface)" placeholder="reps">',
+    icon: '✏️',
+    type: 'confirm',
+    confirmText: 'Guardar',
+    cancelText: 'Cancelar'
+  }).then(function(confirmed) {
+    if (!confirmed) return;
+    var inp = document.getElementById('edit-reps-input');
+    var newReps = inp ? parseInt(inp.value) : null;
+    if (newReps === null || isNaN(newReps) || newReps < 0) return;
+    HOY_STATE.completedExercises[exIdx].sets[serieIdx].reps = newReps;
+    var badge = document.getElementById('badge-' + exIdx + '-' + serieIdx);
+    if (badge) { badge.classList.add('record-flash'); setTimeout(function(){ badge.classList.remove('record-flash'); }, 500); }
+    showToast('Serie corregida: ' + newReps + ' reps', '✏️', 2000);
+    saveSessionDraft();
+    saveDB();
+  });
+  // Auto-focus the input after modal renders
+  setTimeout(function() { var inp = document.getElementById('edit-reps-input'); if (inp) { inp.focus(); inp.select(); } }, 200);
 }
 
 function updateHoyProgress() {
@@ -1937,7 +1985,7 @@ var EX_MET_MAP = {
   'Wide pull-up + banda roja': 'pull', 'Narrow pull-up + banda roja': 'pull',
   'Remo con banda': 'pull', 'Negativas lentas': 'pull',
   'Wide pull-up — TEST ⭐': 'pull', 'Wide pull-up — Test semanal': 'pull',
-  'Push-up en barra': 'push', 'Push-up diamante': 'push',
+  'Push-up en barra': 'push', 'Push-up normal': 'push', 'Push-up diamante': 'push',
   'Push-up arquero': 'push', 'Pike push-up': 'push', 'Push-up explosivo': 'push',
   'Plank': 'core', 'Plank lateral': 'core', 'Dead bug': 'core',
   'Reverse crunch': 'core', 'Wall slide': 'core', 'V-up': 'core',
@@ -3112,14 +3160,27 @@ async function handleAuthStateChange(event, session) {
   if (event === 'SIGNED_IN' || event === 'TOKEN_REFRESHED') {
     _sbUser = session ? session.user : null;
     if (_sbUser && event === 'SIGNED_IN') {
+      // Detect if this is an email confirmation callback (URL has access_token)
+      var isEmailCallback = window.location.hash && window.location.hash.indexOf('access_token') > -1;
+      if (isEmailCallback) {
+        showToast('Email confirmado! Sesion iniciada', '✅', 4000);
+        // Clean the hash from URL so it doesn't re-trigger on reload
+        if (window.history && window.history.replaceState) {
+          window.history.replaceState(null, '', window.location.pathname);
+        }
+      }
       // Pull cloud data on login
       await cloudPull();
       // Flush any pending offline queue
       await flushSyncQueue();
       // Check if local data should be migrated
       checkLocalDataMigration();
+      // Hide auth overlay if open
+      hideAuthOverlay();
     }
     renderCloudAccountUI();
+    // Fix: exit guest mode when logged in and profile is onboarded
+    checkGuestMode();
   } else if (event === 'SIGNED_OUT') {
     _sbUser = null;
     _cloudVersion = 0;
@@ -3713,6 +3774,22 @@ async function obFinish() {
   renderDynamicUI(); renderPeso(); renderThemePicker();
   goMain('entrenar', document.querySelector('.nb'));
   showToast('¡Perfil configurado! A entrenar 💪', '🎉', 3500);
+
+  // Offer to create cloud account if Supabase is configured and not logged in
+  if (isSupabaseConfigured() && !isLoggedIn()) {
+    setTimeout(function() {
+      showModal({
+        title: 'Guardar en la nube?',
+        message: 'Crea una cuenta gratis para sincronizar tus datos entre dispositivos y no perderlos si cambias de celular.',
+        icon: '☁️',
+        type: 'confirm',
+        confirmText: 'Crear cuenta',
+        cancelText: 'Ahora no'
+      }).then(function(confirmed) {
+        if (confirmed) showAuthOverlay('register');
+      });
+    }, 1500);
+  }
 }
 
 // ===================================================================
@@ -4622,15 +4699,16 @@ function checkSessionDraft() {
 function resumeSession() {
   var draft = getSessionDraft();
   if (!draft) return;
-  // Restore HOY_STATE from draft
+  // Save draft values that buildTrainingList will overwrite
+  var savedSeriesDone = draft.seriesDone;
+  var savedSeriesTotal = draft.seriesTotal;
+  var savedExIdx = draft.exIdx;
+  var savedSerieIdx = draft.serieIdx;
+  var savedCompleted = draft.completedExercises || [];
+
   HOY_STATE.day               = draft.day;
-  HOY_STATE.exIdx             = draft.exIdx;
-  HOY_STATE.serieIdx          = draft.serieIdx;
   HOY_STATE.warmupDone        = draft.warmupDone;
-  HOY_STATE.seriesDone        = draft.seriesDone;
-  HOY_STATE.seriesTotal       = draft.seriesTotal;
   HOY_STATE.elapsed           = draft.elapsed || 0;
-  HOY_STATE.completedExercises= draft.completedExercises || [];
   HOY_STATE.startTime         = Date.now() - (HOY_STATE.elapsed * 1000);
   // Navigate to Hoy and restore UI
   goMain('entrenar', document.querySelector('.nb'));
@@ -4643,17 +4721,23 @@ function resumeSession() {
   var trainingEl = document.getElementById('hoy-training');
   if (startPanel) startPanel.style.display = 'none';
   if (trainingEl) trainingEl.style.display = 'block';
-  // Rebuild training list
+  // Rebuild training list (this resets seriesDone and completedExercises)
   buildTrainingList(HOY_STATE.day);
+  // NOW restore the saved draft values after buildTrainingList reset them
+  HOY_STATE.seriesDone = savedSeriesDone;
+  HOY_STATE.seriesTotal = savedSeriesTotal;
+  HOY_STATE.exIdx = savedExIdx;
+  HOY_STATE.serieIdx = savedSerieIdx;
+  HOY_STATE.completedExercises = savedCompleted;
   // Restore completed exercise states in UI
   restoreTrainingUI();
   // Restart elapsed timer
   startElapsedTimer();
-  showToast('Sesión restaurada — llevas ' + draft.seriesDone + ' series completadas', '🔄');
+  showToast('Sesion restaurada — llevas ' + savedSeriesDone + ' series completadas', '🔄');
 }
 
 function restoreTrainingUI() {
-  var dayData = DAYS[HOY_STATE.day];
+  var dayData = getAdaptedDays()[HOY_STATE.day];
   if (!dayData) return;
   // Mark completed exercises
   HOY_STATE.completedExercises.forEach(function(exState, exIdx) {
@@ -4663,20 +4747,28 @@ function restoreTrainingUI() {
     if (!ex) return;
     // Mark completed series badges
     sets.forEach(function(set, sIdx) {
-      if (!set || !set.reps) return;
+      if (!set || set.reps === undefined) return;
       var badge = document.getElementById('badge-' + exIdx + '-' + sIdx);
-      if (badge) { badge.classList.remove('current'); badge.classList.add('done'); badge.textContent = '✓'; }
+      if (badge) {
+        badge.classList.remove('current');
+        badge.classList.add('done');
+        badge.textContent = '✓';
+        badge.title = 'Click para editar';
+        (function(ei,si){ badge.onclick = function(){ editCompletedSerie(ei, si); }; })(exIdx, sIdx);
+      }
     });
     // If all series done, mark exercise complete
-    var allDone = sets.filter(function(s){return s && s.reps;}).length >= ex.sets;
+    var allDone = sets.filter(function(s){return s && s.reps !== undefined;}).length >= ex.sets;
     if (allDone) {
       var icon = document.getElementById('ex-icon-' + exIdx);
       if (icon) { icon.className = 'ex-status-icon ex-status-done'; icon.textContent = '✓'; }
       var trex = document.getElementById('trex-' + exIdx);
       if (trex) { trex.classList.remove('active-ex'); trex.classList.add('done-ex'); }
+      var body = document.getElementById('trex-body-' + exIdx);
+      if (body) body.classList.remove('open');
     }
   });
-  // Mark current exercise as active
+  // Mark current exercise as active and rebuild its serie action
   var curTrex = document.getElementById('trex-' + HOY_STATE.exIdx);
   if (curTrex) {
     curTrex.classList.add('active-ex');
@@ -4684,6 +4776,16 @@ function restoreTrainingUI() {
     if (curIcon) { curIcon.className = 'ex-status-icon ex-status-active'; curIcon.textContent = '▶'; }
     var curBody = document.getElementById('trex-body-' + HOY_STATE.exIdx);
     if (curBody) curBody.classList.add('open');
+    // Mark current serie badge
+    var curBadge = document.getElementById('badge-' + HOY_STATE.exIdx + '-' + HOY_STATE.serieIdx);
+    if (curBadge) curBadge.classList.add('current');
+    // Rebuild serie action area for current exercise+serie
+    var curEx = dayData.exercises[HOY_STATE.exIdx];
+    if (curEx) {
+      var actionArea = document.getElementById('serie-action-' + HOY_STATE.exIdx);
+      if (actionArea) actionArea.innerHTML = buildSerieAction(curEx, HOY_STATE.exIdx, HOY_STATE.serieIdx);
+    }
+    document.getElementById('hoy-current-ex').textContent = dayData.exercises[HOY_STATE.exIdx].name;
     setTimeout(function(){ curTrex.scrollIntoView({behavior:'smooth', block:'start'}); }, 300);
   }
   updateHoyProgress();
